@@ -1,0 +1,36 @@
+/* style rules for superval.uk/infocus
+*/
+
+body {
+	font-family: Verdana, Trebuchet, sans-serif;
+	font-size: 12pt;
+	line-height: 1.6em;
+	margin: 1em;
+}
+
+#textblock {
+	margin: 0 auto;
+	max-width: 50em;
+}
+
+h1 {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 2em;
+	margin: 1em 0 3em;
+}
+
+p, ul {
+	margin-bottom: 0.8em;
+}
+
+ul {
+	list-style: disc;
+	padding-left: 2em;
+}
+li {
+	margin-bottom: 0.3em;
+}
+
+a {
+	text-decoration: none;
+}
