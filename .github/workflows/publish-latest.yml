@@ -15,4 +15,5 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: html # The folder the action should deploy.
+          # target folder is `docs/` because GH allows only that or repo root
+          folder: docs # The folder the action should deploy.

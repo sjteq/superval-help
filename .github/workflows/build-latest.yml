@@ -32,11 +32,12 @@ jobs:
           python3 -m pip install pymdown-extensions  # PyMdown
       # https://www.mkdocs.org/user-guide/cli/#mkdocs-build
       - name: Build site
+        # target folder is `docs/` because GH allows only that or repo root
         run: |
-          rm -fr html/${{ github.event.inputs.svVersion }}
-          mkdir html/${{ github.event.inputs.svVersion }}
+          rm -fr docs/${{ github.event.inputs.svVersion }}
+          mkdir docs/${{ github.event.inputs.svVersion }}
           cd mkdocs
-          mkdocs build -f mkdocsUK.yml -d ../html/${{ github.event.inputs.svVersion }}
+          mkdocs build -f mkdocsUK.yml -d ../docs/${{ github.event.inputs.svVersion }}
       # https://github.com/stefanzweifel/git-auto-commit-action
       - name: Persist new version in repo
         uses: stefanzweifel/git-auto-commit-action@v4
