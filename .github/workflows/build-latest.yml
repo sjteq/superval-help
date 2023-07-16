@@ -1,0 +1,42 @@
+name: build-latest
+on: 
+  workflow_dispatch:
+    # https://stackoverflow.com/questions/62736315/invoke-github-actions-workflow-manually-and-pass-parameters
+    inputs:
+      svVersion:
+        description: SuperVal version
+        required: true
+        default: 930
+
+jobs:
+  build:
+    name: Build latest docs version
+    runs-on: ubuntu-latest
+    steps:
+      # https://bluegenes.github.io/mkdocs-github-actions/
+      - name: Checkout main
+        uses: actions/checkout@v3
+        with:
+          submodules: "recursive"
+          fetch-depth: 0 # Fetch all history for .GitInfo and .lastmod
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: 3.9
+          architecture: 'x64'
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip       # install pip
+          python3 -m pip install mkdocs              # install mkdocs
+          python3 -m pip install mkdocs-material     # install material theme
+          python3 -m pip install pymdown-extensions  # PyMdown
+      # https://www.mkdocs.org/user-guide/cli/#mkdocs-build
+      - name: Build site
+        run: |
+          rm -fr html/${{ github.event.inputs.svVersion }}
+          mkdir html/${{ github.event.inputs.svVersion }}
+          cd mkdocs
+          mkdocs build -f mkdocsUK.yml -d ../html/${{ github.event.inputs.svVersion }}
+      # https://github.com/stefanzweifel/git-auto-commit-action
+      - name: Persist new version in repo
+        uses: stefanzweifel/git-auto-commit-action@v4

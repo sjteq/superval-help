@@ -1,4 +1,32 @@
-# MkDocs configuration file for SuperVal Help subsystem# Generated: HELPEDIT#4.CompileDocs# by Robert Edsell,  15 Jun 2023  3:12 PMcopyright: 'Equiniti Claybrook Ltd 1985-2023'docs_dir: 'docs'extra:  version: ' 9.30.01'extra_javascript:  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML'  - 'https://code.jquery.com/jquery-3.1.1.min.js'markdown_extensions:   - pymdownx.arithmatex#  - mdx_mathsite_author: 'Equiniti Claybrook'site_description: 'Help for SuperVal users'site_dir: '..\site'site_name: 'SuperVal  9.30.01'theme:  logo: 'img/superval.ico'  name: 'material'  palette:    primary: 'red'    accent: 'indigo'  toc:    title: On this pageuse_directory_urls: falsenav:- Home: index.md- Access Levels: access_levels.md
+# MkDocs configuration file for SuperVal Help subsystem
+# Generated: HELPEDIT#4.CompileDocs
+# by Robert Edsell,  15 Jun 2023  3:12 PM
+copyright: 'Equiniti Claybrook Ltd 1985-2023'
+docs_dir: 'docs'
+extra:
+  version: '9.30.01'
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML'
+  - 'https://code.jquery.com/jquery-3.1.1.min.js'
+markdown_extensions:
+   - pymdownx.arithmatex
+#  - mdx_math
+site_author: 'Equiniti Claybrook'
+site_description: 'Help for SuperVal users'
+site_dir: 'site'
+site_name: 'SuperVal 9.30.01'
+theme:
+  logo: 'img/superval.ico'
+  name: 'material'
+  palette:
+    primary: 'red'
+    accent: 'indigo'
+  toc:
+    title: On this page
+use_directory_urls: true
+nav:
+- Home: index.md
+- Access Levels: access_levels.md
 - Accurate GMP: accurate_gmp.md
 - ActFormat:                                 
   - Current: actformat+current.md
