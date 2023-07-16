@@ -1,0 +1,1 @@
+added folder to work around GH issue with assumed Jekyll configuration
