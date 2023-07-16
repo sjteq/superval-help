@@ -1,0 +1,1 @@
+Check this box to include bases within other folders in the Basis Comparison.

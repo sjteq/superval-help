@@ -1,0 +1,330 @@
+# MkDocs configuration file for SuperVal Help subsystem# Generated: HELPEDIT#4.CompileDocs# by Robert Edsell,  15 Jun 2023  3:12 PMcopyright: 'Equiniti Claybrook Ltd 1985-2023'docs_dir: 'docs'extra:  version: ' 9.30.01'extra_javascript:  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML'  - 'https://code.jquery.com/jquery-3.1.1.min.js'markdown_extensions:   - pymdownx.arithmatex#  - mdx_mathsite_author: 'Equiniti Claybrook'site_description: 'Help for SuperVal users'site_dir: '..\site'site_name: 'SuperVal  9.30.01'theme:  logo: 'img/superval.ico'  name: 'material'  palette:    primary: 'red'    accent: 'indigo'  toc:    title: On this pageuse_directory_urls: falsenav:- Home: index.md- Access Levels: access_levels.md
+- Accurate GMP: accurate_gmp.md
+- ActFormat:                                 
+  - Current: actformat+current.md
+  - Non Standard: actformat+non_standard.md
+  - Previous: actformat+previous.md
+  - Validation: actformat+validation.md
+- Actives AOS: actives_aos.md
+- Actives Basis:                                 
+  - AltSlices: actives_basis+altslices.md
+  - Contributions: actives_basis+contributions.md
+  - DeathCash: actives_basis+deathcash.md
+  - DeathPen: actives_basis+deathpen.md
+  - Demographic: actives_basis+demographic.md
+  - Financial: actives_basis+financial.md
+  - IHCOT: actives_basis+ihcot.md
+  - IHCash: actives_basis+ihcash.md
+  - IHPension: actives_basis+ihpension.md
+  - IndSlices: actives_basis+indslices.md
+  - LateRetirement: actives_basis+lateretirement.md
+  - Leaving: actives_basis+leaving.md
+  - Legislation: actives_basis+legislation.md
+  - Main: actives_basis+main.md
+  - Membership: actives_basis+membership.md
+  - Mortality: actives_basis+mortality.md
+  - NEDataDefaults: actives_basis+nedatadefaults.md
+  - PHI: actives_basis+phi.md
+  - PPFCAP: actives_basis+ppfcap.md
+  - RetCOT: actives_basis+retcot.md
+  - RetCash: actives_basis+retcash.md
+  - RetPension: actives_basis+retpension.md
+  - Salaries: actives_basis+salaries.md
+  - Slices: actives_basis+slices.md
+- AddScheme Database: addscheme_database.md
+- Analysis: analysis.md
+- Append Records: append_records.md
+- Approximate GMP: approximate_gmp.md
+- Assumptions Review:                                 
+  - Benefits: assumptions_review+benefits.md
+  - Category: assumptions_review+category.md
+- Basis Audit: basis_audit.md
+- Basis Compare: basis_compare.md
+- Basis Display: basis_display.md
+- Basis ImportExport: basis_importexport.md
+- Basis Update: basis_update.md
+- BasisFile Copy: basisfile_copy.md
+- Batch Define: batch_define.md
+- Batch Display: batch_display.md
+- Batch Overrides: batch_overrides.md
+- Browser: browser.md
+- Bulk Annuity:                                 
+  - Mortality: bulk_annuity+mortality.md
+  - Payment: bulk_annuity+payment.md
+- BulkInsert: bulkinsert.md
+- Cashflow Summary: cashflow_summary.md
+- Change Block: change_block.md
+- Change Password: change_password.md
+- Client:                                 
+  - Data: client+data.md
+  - Files: client+files.md
+  - SQLDatabase: client+sqldatabase.md
+  - ValnOptions: client+valnoptions.md
+- Cohort Review: cohort_review.md
+- Cohort Salary: cohort_salary.md
+- Comment Edit: comment_edit.md
+- Comment View: comment_view.md
+- Commutation Tables: commutation_tables.md
+- Compact Database: compact_database.md
+- Compare Databases: compare_databases.md
+- Config LoadShare: config_loadshare.md
+- Configure RF: configure_rf.md
+- Configure SQL: configure_sql.md
+- Cons Review: cons_review.md
+- Consolidation:                                 
+  - AOS: consolidation+aos.md
+  - Amortisation: consolidation+amortisation.md
+  - Contributions: consolidation+contributions.md
+  - Other: consolidation+other.md
+  - Selection: consolidation+selection.md
+- Constants: constants.md
+- Contributions: contributions.md
+- Conts Calculator: conts_calculator.md
+- Convert Database: convert_database.md
+- Create Database: create_database.md
+- Create Globals:                                 
+  - CommTab: create_globals+commtab.md
+  - DecRates: create_globals+decrates.md
+  - Parms: create_globals+parms.md
+  - RetAge: create_globals+retage.md
+  - RetCash: create_globals+retcash.md
+  - RetFact: create_globals+retfact.md
+  - Spouse: create_globals+spouse.md
+  - SpreadDate: create_globals+spreaddate.md
+  - Summary: create_globals+summary.md
+- DBW ChangeType: dbw_changetype.md
+- Data Build:                                 
+  - CheckSum: data_build+checksum.md
+  - Data: data_build+data.md
+  - Fields: data_build+fields.md
+  - Report: data_build+report.md
+- Data Editor: data_editor.md
+- Data Merge: data_merge.md
+- Decr Merge:                                 
+  - Files: decr_merge+files.md
+  - NotOK: decr_merge+notok.md
+  - OK: decr_merge+ok.md
+  - Summary: decr_merge+summary.md
+- Decr Migration: decr_migration.md
+- Decrement Rates: decrement_rates.md
+- Decrements Review: decrements_review.md
+- Decrements:                                 
+  - Decrement1: decrements+decrement1.md
+  - Decrement2: decrements+decrement2.md
+  - Decrement3: decrements+decrement3.md
+  - Decrement4: decrements+decrement4.md
+  - Decrement5: decrements+decrement5.md
+  - Decrement6: decrements+decrement6.md
+  - Decrement7: decrements+decrement7.md
+  - Decrement8: decrements+decrement8.md
+  - Decrement9: decrements+decrement9.md
+  - General: decrements+general.md
+- DefFormat:                                 
+  - Current: defformat+current.md
+  - Non Standard: defformat+non_standard.md
+  - Previous: defformat+previous.md
+  - Validation: defformat+validation.md
+- Deferreds AOS: deferreds_aos.md
+- Deferreds Basis:                                 
+  - Death: deferreds_basis+death.md
+  - Demographic: deferreds_basis+demographic.md
+  - Financial: deferreds_basis+financial.md
+  - IndPUPs: deferreds_basis+indpups.md
+  - Legislation: deferreds_basis+legislation.md
+  - Main: deferreds_basis+main.md
+  - Membership: deferreds_basis+membership.md
+  - Mortality: deferreds_basis+mortality.md
+  - NSPUPs: deferreds_basis+nspups.md
+  - PPFCAP: deferreds_basis+ppfcap.md
+  - PUPs: deferreds_basis+pups.md
+  - RetCOT: deferreds_basis+retcot.md
+  - RetCash: deferreds_basis+retcash.md
+  - RetPension: deferreds_basis+retpension.md
+  - Spouse: deferreds_basis+spouse.md
+  - TVBasis: deferreds_basis+tvbasis.md
+  - TVMortality: deferreds_basis+tvmortality.md
+  - Underpin: deferreds_basis+underpin.md
+- Delete Rates: delete_rates.md
+- Display Audit: display_audit.md
+- Display FAudit: display_faudit.md
+- Display Fit: display_fit.md
+- Display Rates: display_rates.md
+- Drop Database: drop_database.md
+- Edit Character: edit_character.md
+- Edit Date: edit_date.md
+- Edit IndPUP: edit_indpup.md
+- Edit IndSlice:                                 
+  - Slice: edit_indslice+slice.md
+  - Tier1: edit_indslice+tier1.md
+  - Tier2: edit_indslice+tier2.md
+  - Tier3: edit_indslice+tier3.md
+- Edit Numeric: edit_numeric.md
+- Edit Salary: edit_salary.md
+- Edit UKPUP: edit_ukpup.md
+- Edit UKPension: edit_ukpension.md
+- Edit UKSlice:                                 
+  - Slice: edit_ukslice+slice.md
+  - Tier1: edit_ukslice+tier1.md
+  - Tier2: edit_ukslice+tier2.md
+  - Tier3: edit_ukslice+tier3.md
+- Enter Licence: enter_licence.md
+- Excel Output: excel_output.md
+- ExcelExport: excelexport.md
+- Expense Rates: expense_rates.md
+- FactAudit: factaudit.md
+- Factor Migration: factor_migration.md
+- Factors: factors.md
+- File Calculator: file_calculator.md
+- FileIO: fileio.md
+- Financials Display: financials_display.md
+- Financials Export: financials_export.md
+- Financials:                                 
+  - Constants: financials+constants.md
+  - Groupings: financials+groupings.md
+  - Increase: financials+increase.md
+  - Inflation: financials+inflation.md
+  - Interest: financials+interest.md
+  - Revaluation: financials+revaluation.md
+- Find: find.md
+- Fit Table: fit_table.md
+- Fix File: fix_file.md
+- Glean Basis: glean_basis.md
+- HTTP Select: http_select.md
+- IRR: irr.md
+- Import Format: import_format.md
+- Import Parameters: import_parameters.md
+- Import Ranges: import_ranges.md
+- Ind Annuity:                                 
+  - Mortality: ind_annuity+mortality.md
+  - Payment: ind_annuity+payment.md
+- Insert Rates: insert_rates.md
+- Interpolate Rates: interpolate_rates.md
+- Log On: log_on.md
+- MSAR: msar.md
+- Migrate S21PPF:                                 
+  - Anomaly: migrate_s21ppf+anomaly.md
+  - Overwrite: migrate_s21ppf+overwrite.md
+  - Sets: migrate_s21ppf+sets.md
+  - Summary: migrate_s21ppf+summary.md
+- Migration Names:                                 
+  - Actives: migration_names+actives.md
+  - Deferreds: migration_names+deferreds.md
+  - Pensioners: migration_names+pensioners.md
+- Mort Improvement: mort_improvement.md
+- Mortality Rate: mortality_rate.md
+- Mortality Rate Select: mortality_rate_select.md
+- NE Age Review: ne_age_review.md
+- NE Model: ne_model.md
+- NE Salary Review: ne_salary_review.md
+- New Entrant Age: new_entrant_age.md
+- New Entrant Salary: new_entrant_salary.md
+- Open: open.md
+- PPF Audit: ppf_audit.md
+- PPF Caps: ppf_caps.md
+- PPF Caps Edit: ppf_caps_edit.md
+- PPF Details: ppf_details.md
+- PPF Overrides:                                 
+  - Demographic: ppf_overrides+demographic.md
+  - Mortality: ppf_overrides+mortality.md
+  - s143Parameters: ppf_overrides+s143parameters.md
+- PPF Yields: ppf_yields.md
+- PPF Yields Edit: ppf_yields_edit.md
+- PenFormat:                                 
+  - Current: penformat+current.md
+  - Non Standard: penformat+non_standard.md
+  - Previous: penformat+previous.md
+  - Validation: penformat+validation.md
+- Pensioners AOS: pensioners_aos.md
+- Pensioners Basis:                                 
+  - Financial: pensioners_basis+financial.md
+  - Legislation: pensioners_basis+legislation.md
+  - Main: pensioners_basis+main.md
+  - Mortality: pensioners_basis+mortality.md
+  - PPFCAP: pensioners_basis+ppfcap.md
+  - Pensions: pensioners_basis+pensions.md
+  - Spouse: pensioners_basis+spouse.md
+- Prepare Database: prepare_database.md
+- Print Dialog: print_dialog.md
+- QSM Graphs: qsm_graphs.md
+- QSM Solve: qsm_solve.md
+- Quick Scenario:                                 
+  - Benefits: quick_scenario+benefits.md
+  - Demographic: quick_scenario+demographic.md
+  - Financial: quick_scenario+financial.md
+  - Funding: quick_scenario+funding.md
+  - RollForward: quick_scenario+rollforward.md
+- RTAudit: rtaudit.md
+- Rate Table Editor: rate_table_editor.md
+- Rate Tables: rate_tables.md
+- Reconciliation: reconciliation.md
+- Release Decr: release_decr.md
+- Replace: replace.md
+- Retire Database: retire_database.md
+- Retirement Age: retirement_age.md
+- Retirement Cash: retirement_cash.md
+- Retirement Factors: retirement_factors.md
+- Roll Forward:                                 
+  - Adjustment1: roll_forward+adjustment1.md
+  - Adjustment2: roll_forward+adjustment2.md
+  - Adjustment3: roll_forward+adjustment3.md
+  - Adjustment4: roll_forward+adjustment4.md
+  - Adjustment5: roll_forward+adjustment5.md
+  - Adjustment6: roll_forward+adjustment6.md
+  - Adjustment7: roll_forward+adjustment7.md
+  - Adjustment8: roll_forward+adjustment8.md
+  - Adjustment9: roll_forward+adjustment9.md
+  - Changes: roll_forward+changes.md
+  - Data: roll_forward+data.md
+- Run Scenarios: run_scenarios.md
+- SQL Access: sql_access.md
+- SaveAs: saveas.md
+- Scenario Output: scenario_output.md
+- Scenarios Report: scenarios_report.md
+- Scenarios:                                 
+  - CommTables: scenarios+commtables.md
+  - Decrements: scenarios+decrements.md
+  - Financials: scenarios+financials.md
+  - MortImprovement: scenarios+mortimprovement.md
+  - Mortality: scenarios+mortality.md
+  - NEModel: scenarios+nemodel.md
+  - RetCash: scenarios+retcash.md
+  - RetFactors: scenarios+retfactors.md
+  - RetirementAge: scenarios+retirementage.md
+  - Spouse: scenarios+spouse.md
+  - SpreadDates: scenarios+spreaddates.md
+  - ValuationData: scenarios+valuationdata.md
+- Select: select.md
+- Select Batch: select_batch.md
+- Select ExcelRange: select_excelrange.md
+- Select Rates: select_rates.md
+- Select Scenario: select_scenario.md
+- Selection Dialog: selection_dialog.md
+- Set Font: set_font.md
+- Snapshot Review: snapshot_review.md
+- Snapshot Salary: snapshot_salary.md
+- Spouse Parameters: spouse_parameters.md
+- Spreading Dates: spreading_dates.md
+- Sub AddEdit: sub_addedit.md
+- System Preferences: system_preferences.md
+- Update Database: update_database.md
+- User Preferences: user_preferences.md
+- Users: users.md
+- Users SQLUpdate: users_sqlupdate.md
+- V9Migration:                                 
+  - Anomaly: v9migration+anomaly.md
+  - Bases: v9migration+bases.md
+  - Conts: v9migration+conts.md
+  - Increase: v9migration+increase.md
+  - Inflation: v9migration+inflation.md
+  - Interest: v9migration+interest.md
+  - MortImp: v9migration+mortimp.md
+  - Mortality: v9migration+mortality.md
+  - NEM: v9migration+nem.md
+  - Overwrite: v9migration+overwrite.md
+  - Parms: v9migration+parms.md
+  - Revaluation: v9migration+revaluation.md
+  - SelMort: v9migration+selmort.md
+  - Summary: v9migration+summary.md
+- Validation:                                 
+  - Parameters: validation+parameters.md
+  - Ranges: validation+ranges.md

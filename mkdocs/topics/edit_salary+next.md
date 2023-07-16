@@ -1,0 +1,1 @@
+Move on to the next Salary. Select "ok" to save any changes to the current Salary.

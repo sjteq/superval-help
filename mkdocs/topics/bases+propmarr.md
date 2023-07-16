@@ -1,0 +1,1 @@
+Users can express the proportion married as a single percentage across all ages.

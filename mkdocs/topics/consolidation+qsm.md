@@ -1,0 +1,2 @@
+User can select the parameters that are suitable for Quick Scenario Modelling 
+i.e. selecting this button will set ALM/LDI Interface to "Exclude Left Servce" and tick "Retain Category Splits in Database"

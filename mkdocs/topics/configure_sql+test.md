@@ -1,0 +1,1 @@
+Test SQL Connection properties
