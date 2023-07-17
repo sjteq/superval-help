@@ -1,0 +1,7 @@
+/* InFocus custom styles
+*/
+
+div.numeric-table div.md-typeset__table td:not(:first-child),
+div.numeric-table div.md-typeset__table th:not(:first-child) {
+    text-align: right;
+}
