@@ -51,13 +51,13 @@ nav:
   - help/index.md
   - Access Levels: help/access_levels.md
   - Accurate GMP: help/accurate_gmp.md
-  - ActFormat: help/                                
+  - ActFormat:
     - Current: help/actformat+current.md
     - Non Standard: help/actformat+non_standard.md
     - Previous: help/actformat+previous.md
     - Validation: help/actformat+validation.md
   - Actives AOS: help/actives_aos.md
-  - Actives Basis: help/                                
+  - Actives Basis:
     - AltSlices: help/actives_basis+altslices.md
     - Contributions: help/actives_basis+contributions.md
     - DeathCash: help/actives_basis+deathcash.md
@@ -86,7 +86,7 @@ nav:
   - Analysis: help/analysis.md
   - Append Records: help/append_records.md
   - Approximate GMP: help/approximate_gmp.md
-  - Assumptions Review: help/                                
+  - Assumptions Review:
     - Benefits: help/assumptions_review+benefits.md
     - Category: help/assumptions_review+category.md
   - Basis Audit: help/basis_audit.md
@@ -99,14 +99,14 @@ nav:
   - Batch Display: help/batch_display.md
   - Batch Overrides: help/batch_overrides.md
   - Browser: help/browser.md
-  - Bulk Annuity: help/                                
+  - Bulk Annuity:
     - Mortality: help/bulk_annuity+mortality.md
     - Payment: help/bulk_annuity+payment.md
   - BulkInsert: help/bulkinsert.md
   - Cashflow Summary: help/cashflow_summary.md
   - Change Block: help/change_block.md
   - Change Password: help/change_password.md
-  - Client: help/                                
+  - Client:
     - Data: help/client+data.md
     - Files: help/client+files.md
     - SQLDatabase: help/client+sqldatabase.md
@@ -122,7 +122,7 @@ nav:
   - Configure RF: help/configure_rf.md
   - Configure SQL: help/configure_sql.md
   - Cons Review: help/cons_review.md
-  - Consolidation: help/                                
+  - Consolidation:
     - AOS: help/consolidation+aos.md
     - Amortisation: help/consolidation+amortisation.md
     - Contributions: help/consolidation+contributions.md
@@ -133,7 +133,7 @@ nav:
   - Conts Calculator: help/conts_calculator.md
   - Convert Database: help/convert_database.md
   - Create Database: help/create_database.md
-  - Create Globals: help/                                
+  - Create Globals:
     - CommTab: help/create_globals+commtab.md
     - DecRates: help/create_globals+decrates.md
     - Parms: help/create_globals+parms.md
@@ -144,14 +144,14 @@ nav:
     - SpreadDate: help/create_globals+spreaddate.md
     - Summary: help/create_globals+summary.md
   - DBW ChangeType: help/dbw_changetype.md
-  - Data Build: help/                                
+  - Data Build:
     - CheckSum: help/data_build+checksum.md
     - Data: help/data_build+data.md
     - Fields: help/data_build+fields.md
     - Report: help/data_build+report.md
   - Data Editor: help/data_editor.md
   - Data Merge: help/data_merge.md
-  - Decr Merge: help/                                
+  - Decr Merge:
     - Files: help/decr_merge+files.md
     - NotOK: help/decr_merge+notok.md
     - OK: help/decr_merge+ok.md
@@ -159,7 +159,7 @@ nav:
   - Decr Migration: help/decr_migration.md
   - Decrement Rates: help/decrement_rates.md
   - Decrements Review: help/decrements_review.md
-  - Decrements: help/                                
+  - Decrements:
     - Decrement1: help/decrements+decrement1.md
     - Decrement2: help/decrements+decrement2.md
     - Decrement3: help/decrements+decrement3.md
@@ -170,13 +170,13 @@ nav:
     - Decrement8: help/decrements+decrement8.md
     - Decrement9: help/decrements+decrement9.md
     - General: help/decrements+general.md
-  - DefFormat: help/                                
+  - DefFormat:
     - Current: help/defformat+current.md
     - Non Standard: help/defformat+non_standard.md
     - Previous: help/defformat+previous.md
     - Validation: help/defformat+validation.md
   - Deferreds AOS: help/deferreds_aos.md
-  - Deferreds Basis: help/                                
+  - Deferreds Basis:
     - Death: help/deferreds_basis+death.md
     - Demographic: help/deferreds_basis+demographic.md
     - Financial: help/deferreds_basis+financial.md
@@ -204,7 +204,7 @@ nav:
   - Edit Character: help/edit_character.md
   - Edit Date: help/edit_date.md
   - Edit IndPUP: help/edit_indpup.md
-  - Edit IndSlice: help/                                
+  - Edit IndSlice:
     - Slice: help/edit_indslice+slice.md
     - Tier1: help/edit_indslice+tier1.md
     - Tier2: help/edit_indslice+tier2.md
@@ -213,7 +213,7 @@ nav:
   - Edit Salary: help/edit_salary.md
   - Edit UKPUP: help/edit_ukpup.md
   - Edit UKPension: help/edit_ukpension.md
-  - Edit UKSlice: help/                                
+  - Edit UKSlice:
     - Slice: help/edit_ukslice+slice.md
     - Tier1: help/edit_ukslice+tier1.md
     - Tier2: help/edit_ukslice+tier2.md
@@ -229,7 +229,7 @@ nav:
   - FileIO: help/fileio.md
   - Financials Display: help/financials_display.md
   - Financials Export: help/financials_export.md
-  - Financials: help/                                
+  - Financials:
     - Constants: help/financials+constants.md
     - Groupings: help/financials+groupings.md
     - Increase: help/financials+increase.md
@@ -245,19 +245,19 @@ nav:
   - Import Format: help/import_format.md
   - Import Parameters: help/import_parameters.md
   - Import Ranges: help/import_ranges.md
-  - Ind Annuity: help/                                
+  - Ind Annuity:
     - Mortality: help/ind_annuity+mortality.md
     - Payment: help/ind_annuity+payment.md
   - Insert Rates: help/insert_rates.md
   - Interpolate Rates: help/interpolate_rates.md
   - Log On: help/log_on.md
   - MSAR: help/msar.md
-  - Migrate S21PPF: help/                                
+  - Migrate S21PPF:
     - Anomaly: help/migrate_s21ppf+anomaly.md
     - Overwrite: help/migrate_s21ppf+overwrite.md
     - Sets: help/migrate_s21ppf+sets.md
     - Summary: help/migrate_s21ppf+summary.md
-  - Migration Names: help/                                
+  - Migration Names:
     - Actives: help/migration_names+actives.md
     - Deferreds: help/migration_names+deferreds.md
     - Pensioners: help/migration_names+pensioners.md
@@ -274,19 +274,19 @@ nav:
   - PPF Caps: help/ppf_caps.md
   - PPF Caps Edit: help/ppf_caps_edit.md
   - PPF Details: help/ppf_details.md
-  - PPF Overrides: help/                                
+  - PPF Overrides:
     - Demographic: help/ppf_overrides+demographic.md
     - Mortality: help/ppf_overrides+mortality.md
     - s143Parameters: help/ppf_overrides+s143parameters.md
   - PPF Yields: help/ppf_yields.md
   - PPF Yields Edit: help/ppf_yields_edit.md
-  - PenFormat: help/                                
+  - PenFormat:
     - Current: help/penformat+current.md
     - Non Standard: help/penformat+non_standard.md
     - Previous: help/penformat+previous.md
     - Validation: help/penformat+validation.md
   - Pensioners AOS: help/pensioners_aos.md
-  - Pensioners Basis: help/                                
+  - Pensioners Basis:
     - Financial: help/pensioners_basis+financial.md
     - Legislation: help/pensioners_basis+legislation.md
     - Main: help/pensioners_basis+main.md
@@ -298,7 +298,7 @@ nav:
   - Print Dialog: help/print_dialog.md
   - QSM Graphs: help/qsm_graphs.md
   - QSM Solve: help/qsm_solve.md
-  - Quick Scenario: help/                                
+  - Quick Scenario:
     - Benefits: help/quick_scenario+benefits.md
     - Demographic: help/quick_scenario+demographic.md
     - Financial: help/quick_scenario+financial.md
@@ -314,7 +314,7 @@ nav:
   - Retirement Age: help/retirement_age.md
   - Retirement Cash: help/retirement_cash.md
   - Retirement Factors: help/retirement_factors.md
-  - Roll Forward: help/                                
+  - Roll Forward:
     - Adjustment1: help/roll_forward+adjustment1.md
     - Adjustment2: help/roll_forward+adjustment2.md
     - Adjustment3: help/roll_forward+adjustment3.md
@@ -331,7 +331,7 @@ nav:
   - SaveAs: help/saveas.md
   - Scenario Output: help/scenario_output.md
   - Scenarios Report: help/scenarios_report.md
-  - Scenarios: help/                                
+  - Scenarios:
     - CommTables: help/scenarios+commtables.md
     - Decrements: help/scenarios+decrements.md
     - Financials: help/scenarios+financials.md
@@ -361,7 +361,7 @@ nav:
   - User Preferences: help/user_preferences.md
   - Users: help/users.md
   - Users SQLUpdate: help/users_sqlupdate.md
-  - V9Migration: help/                                
+  - V9Migration:
     - Anomaly: help/v9migration+anomaly.md
     - Bases: help/v9migration+bases.md
     - Conts: help/v9migration+conts.md
@@ -376,7 +376,7 @@ nav:
     - Revaluation: help/v9migration+revaluation.md
     - SelMort: help/v9migration+selmort.md
     - Summary: help/v9migration+summary.md
-  - Validation: help/                                
+  - Validation:
     - Parameters: help/validation+parameters.md
     - Ranges: help/validation+ranges.md
 - InFocus:
