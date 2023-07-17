@@ -1,0 +1,7876 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Help for SuperVal users">
+      
+      
+        <meta name="author" content="Khiloni Shah">
+      
+      
+      
+        <link rel="prev" href="../valuation-statistics/index.html">
+      
+      
+        <link rel="next" href="../valuing-withdrawal-benefits/index.html">
+      
+      <link rel="icon" href="../../img/superval.ico">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
+    
+    
+      
+        <title>Valuing cash benefits - SuperVal 9.30.02</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.26e3688c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ecc896b0.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="indigo">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#valuing-cash-benefits" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="SuperVal 9.30.02" class="md-header__button md-logo" aria-label="SuperVal 9.30.02" data-md-component="logo">
+      
+  <img src="../../img/superval.ico" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SuperVal 9.30.02
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Valuing cash benefits
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../help/index.html" class="md-tabs__link">
+        Help
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../index.html" class="md-tabs__link md-tabs__link--active">
+        InFocus
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="SuperVal 9.30.02" class="md-nav__button md-logo" aria-label="SuperVal 9.30.02" data-md-component="logo">
+      
+  <img src="../../img/superval.ico" alt="logo">
+
+    </a>
+    SuperVal 9.30.02
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../help/index.html">Help</a>
+          
+            <label for="__nav_1">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Help
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/access_levels.html" class="md-nav__link">
+        Access Levels
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/accurate_gmp.html" class="md-nav__link">
+        Accurate GMP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_4" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_4" id="__nav_1_4_label" tabindex="0">
+          ActFormat
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          ActFormat
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actformat%2Bcurrent.html" class="md-nav__link">
+        Current
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actformat%2Bnon_standard.html" class="md-nav__link">
+        Non Standard
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actformat%2Bprevious.html" class="md-nav__link">
+        Previous
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actformat%2Bvalidation.html" class="md-nav__link">
+        Validation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actives_aos.html" class="md-nav__link">
+        Actives AOS
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_6" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_6" id="__nav_1_6_label" tabindex="0">
+          Actives Basis
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1_6">
+          <span class="md-nav__icon md-icon"></span>
+          Actives Basis
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actives_basis%2Baltslices.html" class="md-nav__link">
+        AltSlices
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actives_basis%2Bcontributions.html" class="md-nav__link">
+        Contributions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actives_basis%2Bdeathcash.html" class="md-nav__link">
+        DeathCash
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actives_basis%2Bdeathpen.html" class="md-nav__link">
+        DeathPen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actives_basis%2Bdemographic.html" class="md-nav__link">
+        Demographic
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actives_basis%2Bfinancial.html" class="md-nav__link">
+        Financial
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actives_basis%2Bihcot.html" class="md-nav__link">
+        IHCOT
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actives_basis%2Bihcash.html" class="md-nav__link">
+        IHCash
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actives_basis%2Bihpension.html" class="md-nav__link">
+        IHPension
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actives_basis%2Bindslices.html" class="md-nav__link">
+        IndSlices
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actives_basis%2Blateretirement.html" class="md-nav__link">
+        LateRetirement
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actives_basis%2Bleaving.html" class="md-nav__link">
+        Leaving
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actives_basis%2Blegislation.html" class="md-nav__link">
+        Legislation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actives_basis%2Bmain.html" class="md-nav__link">
+        Main
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actives_basis%2Bmembership.html" class="md-nav__link">
+        Membership
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actives_basis%2Bmortality.html" class="md-nav__link">
+        Mortality
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actives_basis%2Bnedatadefaults.html" class="md-nav__link">
+        NEDataDefaults
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actives_basis%2Bphi.html" class="md-nav__link">
+        PHI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actives_basis%2Bppfcap.html" class="md-nav__link">
+        PPFCAP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actives_basis%2Bretcot.html" class="md-nav__link">
+        RetCOT
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actives_basis%2Bretcash.html" class="md-nav__link">
+        RetCash
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actives_basis%2Bretpension.html" class="md-nav__link">
+        RetPension
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actives_basis%2Bsalaries.html" class="md-nav__link">
+        Salaries
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/actives_basis%2Bslices.html" class="md-nav__link">
+        Slices
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/addscheme_database.html" class="md-nav__link">
+        AddScheme Database
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/analysis.html" class="md-nav__link">
+        Analysis
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/append_records.html" class="md-nav__link">
+        Append Records
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/approximate_gmp.html" class="md-nav__link">
+        Approximate GMP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_11" >
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_11" id="__nav_1_11_label" tabindex="0">
+          Assumptions Review
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_11_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1_11">
+          <span class="md-nav__icon md-icon"></span>
+          Assumptions Review
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/assumptions_review%2Bbenefits.html" class="md-nav__link">
+        Benefits
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/assumptions_review%2Bcategory.html" class="md-nav__link">
+        Category
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/basis_audit.html" class="md-nav__link">
+        Basis Audit
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/basis_compare.html" class="md-nav__link">
+        Basis Compare
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/basis_display.html" class="md-nav__link">
+        Basis Display
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/basis_importexport.html" class="md-nav__link">
+        Basis ImportExport
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/basis_update.html" class="md-nav__link">
+        Basis Update
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/basisfile_copy.html" class="md-nav__link">
+        BasisFile Copy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/batch_define.html" class="md-nav__link">
+        Batch Define
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/batch_display.html" class="md-nav__link">
+        Batch Display
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/batch_overrides.html" class="md-nav__link">
+        Batch Overrides
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/browser.html" class="md-nav__link">
+        Browser
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_22" >
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_22" id="__nav_1_22_label" tabindex="0">
+          Bulk Annuity
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_22_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1_22">
+          <span class="md-nav__icon md-icon"></span>
+          Bulk Annuity
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/bulk_annuity%2Bmortality.html" class="md-nav__link">
+        Mortality
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/bulk_annuity%2Bpayment.html" class="md-nav__link">
+        Payment
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/bulkinsert.html" class="md-nav__link">
+        BulkInsert
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/cashflow_summary.html" class="md-nav__link">
+        Cashflow Summary
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/change_block.html" class="md-nav__link">
+        Change Block
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/change_password.html" class="md-nav__link">
+        Change Password
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_27" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_27" id="__nav_1_27_label" tabindex="0">
+          Client
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_27_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1_27">
+          <span class="md-nav__icon md-icon"></span>
+          Client
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/client%2Bdata.html" class="md-nav__link">
+        Data
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/client%2Bfiles.html" class="md-nav__link">
+        Files
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/client%2Bsqldatabase.html" class="md-nav__link">
+        SQLDatabase
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/client%2Bvalnoptions.html" class="md-nav__link">
+        ValnOptions
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/cohort_review.html" class="md-nav__link">
+        Cohort Review
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/cohort_salary.html" class="md-nav__link">
+        Cohort Salary
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/comment_edit.html" class="md-nav__link">
+        Comment Edit
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/comment_view.html" class="md-nav__link">
+        Comment View
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/commutation_tables.html" class="md-nav__link">
+        Commutation Tables
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/compact_database.html" class="md-nav__link">
+        Compact Database
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/compare_databases.html" class="md-nav__link">
+        Compare Databases
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/config_loadshare.html" class="md-nav__link">
+        Config LoadShare
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/configure_rf.html" class="md-nav__link">
+        Configure RF
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/configure_sql.html" class="md-nav__link">
+        Configure SQL
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/cons_review.html" class="md-nav__link">
+        Cons Review
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_39" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_39" id="__nav_1_39_label" tabindex="0">
+          Consolidation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_39_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1_39">
+          <span class="md-nav__icon md-icon"></span>
+          Consolidation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/consolidation%2Baos.html" class="md-nav__link">
+        AOS
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/consolidation%2Bamortisation.html" class="md-nav__link">
+        Amortisation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/consolidation%2Bcontributions.html" class="md-nav__link">
+        Contributions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/consolidation%2Bother.html" class="md-nav__link">
+        Other
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/consolidation%2Bselection.html" class="md-nav__link">
+        Selection
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/constants.html" class="md-nav__link">
+        Constants
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/contributions.html" class="md-nav__link">
+        Contributions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/conts_calculator.html" class="md-nav__link">
+        Conts Calculator
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/convert_database.html" class="md-nav__link">
+        Convert Database
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/create_database.html" class="md-nav__link">
+        Create Database
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_45" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_45" id="__nav_1_45_label" tabindex="0">
+          Create Globals
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_45_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1_45">
+          <span class="md-nav__icon md-icon"></span>
+          Create Globals
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/create_globals%2Bcommtab.html" class="md-nav__link">
+        CommTab
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/create_globals%2Bdecrates.html" class="md-nav__link">
+        DecRates
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/create_globals%2Bparms.html" class="md-nav__link">
+        Parms
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/create_globals%2Bretage.html" class="md-nav__link">
+        RetAge
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/create_globals%2Bretcash.html" class="md-nav__link">
+        RetCash
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/create_globals%2Bretfact.html" class="md-nav__link">
+        RetFact
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/create_globals%2Bspouse.html" class="md-nav__link">
+        Spouse
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/create_globals%2Bspreaddate.html" class="md-nav__link">
+        SpreadDate
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/create_globals%2Bsummary.html" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/dbw_changetype.html" class="md-nav__link">
+        DBW ChangeType
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_47" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_47" id="__nav_1_47_label" tabindex="0">
+          Data Build
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_47_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1_47">
+          <span class="md-nav__icon md-icon"></span>
+          Data Build
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/data_build%2Bchecksum.html" class="md-nav__link">
+        CheckSum
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/data_build%2Bdata.html" class="md-nav__link">
+        Data
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/data_build%2Bfields.html" class="md-nav__link">
+        Fields
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/data_build%2Breport.html" class="md-nav__link">
+        Report
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/data_editor.html" class="md-nav__link">
+        Data Editor
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/data_merge.html" class="md-nav__link">
+        Data Merge
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_50" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_50" id="__nav_1_50_label" tabindex="0">
+          Decr Merge
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_50_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1_50">
+          <span class="md-nav__icon md-icon"></span>
+          Decr Merge
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/decr_merge%2Bfiles.html" class="md-nav__link">
+        Files
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/decr_merge%2Bnotok.html" class="md-nav__link">
+        NotOK
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/decr_merge%2Bok.html" class="md-nav__link">
+        OK
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/decr_merge%2Bsummary.html" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/decr_migration.html" class="md-nav__link">
+        Decr Migration
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/decrement_rates.html" class="md-nav__link">
+        Decrement Rates
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/decrements_review.html" class="md-nav__link">
+        Decrements Review
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_54" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_54" id="__nav_1_54_label" tabindex="0">
+          Decrements
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_54_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1_54">
+          <span class="md-nav__icon md-icon"></span>
+          Decrements
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/decrements%2Bdecrement1.html" class="md-nav__link">
+        Decrement1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/decrements%2Bdecrement2.html" class="md-nav__link">
+        Decrement2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/decrements%2Bdecrement3.html" class="md-nav__link">
+        Decrement3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/decrements%2Bdecrement4.html" class="md-nav__link">
+        Decrement4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/decrements%2Bdecrement5.html" class="md-nav__link">
+        Decrement5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/decrements%2Bdecrement6.html" class="md-nav__link">
+        Decrement6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/decrements%2Bdecrement7.html" class="md-nav__link">
+        Decrement7
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/decrements%2Bdecrement8.html" class="md-nav__link">
+        Decrement8
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/decrements%2Bdecrement9.html" class="md-nav__link">
+        Decrement9
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/decrements%2Bgeneral.html" class="md-nav__link">
+        General
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_55" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_55" id="__nav_1_55_label" tabindex="0">
+          DefFormat
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_55_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1_55">
+          <span class="md-nav__icon md-icon"></span>
+          DefFormat
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/defformat%2Bcurrent.html" class="md-nav__link">
+        Current
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/defformat%2Bnon_standard.html" class="md-nav__link">
+        Non Standard
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/defformat%2Bprevious.html" class="md-nav__link">
+        Previous
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/defformat%2Bvalidation.html" class="md-nav__link">
+        Validation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/deferreds_aos.html" class="md-nav__link">
+        Deferreds AOS
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_57" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_57" id="__nav_1_57_label" tabindex="0">
+          Deferreds Basis
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_57_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1_57">
+          <span class="md-nav__icon md-icon"></span>
+          Deferreds Basis
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/deferreds_basis%2Bdeath.html" class="md-nav__link">
+        Death
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/deferreds_basis%2Bdemographic.html" class="md-nav__link">
+        Demographic
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/deferreds_basis%2Bfinancial.html" class="md-nav__link">
+        Financial
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/deferreds_basis%2Bindpups.html" class="md-nav__link">
+        IndPUPs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/deferreds_basis%2Blegislation.html" class="md-nav__link">
+        Legislation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/deferreds_basis%2Bmain.html" class="md-nav__link">
+        Main
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/deferreds_basis%2Bmembership.html" class="md-nav__link">
+        Membership
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/deferreds_basis%2Bmortality.html" class="md-nav__link">
+        Mortality
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/deferreds_basis%2Bnspups.html" class="md-nav__link">
+        NSPUPs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/deferreds_basis%2Bppfcap.html" class="md-nav__link">
+        PPFCAP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/deferreds_basis%2Bpups.html" class="md-nav__link">
+        PUPs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/deferreds_basis%2Bretcot.html" class="md-nav__link">
+        RetCOT
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/deferreds_basis%2Bretcash.html" class="md-nav__link">
+        RetCash
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/deferreds_basis%2Bretpension.html" class="md-nav__link">
+        RetPension
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/deferreds_basis%2Bspouse.html" class="md-nav__link">
+        Spouse
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/deferreds_basis%2Btvbasis.html" class="md-nav__link">
+        TVBasis
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/deferreds_basis%2Btvmortality.html" class="md-nav__link">
+        TVMortality
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/deferreds_basis%2Bunderpin.html" class="md-nav__link">
+        Underpin
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/delete_rates.html" class="md-nav__link">
+        Delete Rates
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/display_audit.html" class="md-nav__link">
+        Display Audit
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/display_faudit.html" class="md-nav__link">
+        Display FAudit
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/display_fit.html" class="md-nav__link">
+        Display Fit
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/display_rates.html" class="md-nav__link">
+        Display Rates
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/drop_database.html" class="md-nav__link">
+        Drop Database
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/edit_character.html" class="md-nav__link">
+        Edit Character
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/edit_date.html" class="md-nav__link">
+        Edit Date
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/edit_indpup.html" class="md-nav__link">
+        Edit IndPUP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_67" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_67" id="__nav_1_67_label" tabindex="0">
+          Edit IndSlice
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_67_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1_67">
+          <span class="md-nav__icon md-icon"></span>
+          Edit IndSlice
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/edit_indslice%2Bslice.html" class="md-nav__link">
+        Slice
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/edit_indslice%2Btier1.html" class="md-nav__link">
+        Tier1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/edit_indslice%2Btier2.html" class="md-nav__link">
+        Tier2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/edit_indslice%2Btier3.html" class="md-nav__link">
+        Tier3
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/edit_numeric.html" class="md-nav__link">
+        Edit Numeric
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/edit_salary.html" class="md-nav__link">
+        Edit Salary
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/edit_ukpup.html" class="md-nav__link">
+        Edit UKPUP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/edit_ukpension.html" class="md-nav__link">
+        Edit UKPension
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_72" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_72" id="__nav_1_72_label" tabindex="0">
+          Edit UKSlice
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_72_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1_72">
+          <span class="md-nav__icon md-icon"></span>
+          Edit UKSlice
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/edit_ukslice%2Bslice.html" class="md-nav__link">
+        Slice
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/edit_ukslice%2Btier1.html" class="md-nav__link">
+        Tier1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/edit_ukslice%2Btier2.html" class="md-nav__link">
+        Tier2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/edit_ukslice%2Btier3.html" class="md-nav__link">
+        Tier3
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/enter_licence.html" class="md-nav__link">
+        Enter Licence
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/excel_output.html" class="md-nav__link">
+        Excel Output
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/excelexport.html" class="md-nav__link">
+        ExcelExport
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/expense_rates.html" class="md-nav__link">
+        Expense Rates
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/factaudit.html" class="md-nav__link">
+        FactAudit
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/factor_migration.html" class="md-nav__link">
+        Factor Migration
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/factors.html" class="md-nav__link">
+        Factors
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/file_calculator.html" class="md-nav__link">
+        File Calculator
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/fileio.html" class="md-nav__link">
+        FileIO
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/financials_display.html" class="md-nav__link">
+        Financials Display
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/financials_export.html" class="md-nav__link">
+        Financials Export
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_84" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_84" id="__nav_1_84_label" tabindex="0">
+          Financials
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_84_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1_84">
+          <span class="md-nav__icon md-icon"></span>
+          Financials
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/financials%2Bconstants.html" class="md-nav__link">
+        Constants
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/financials%2Bgroupings.html" class="md-nav__link">
+        Groupings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/financials%2Bincrease.html" class="md-nav__link">
+        Increase
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/financials%2Binflation.html" class="md-nav__link">
+        Inflation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/financials%2Binterest.html" class="md-nav__link">
+        Interest
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/financials%2Brevaluation.html" class="md-nav__link">
+        Revaluation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/find.html" class="md-nav__link">
+        Find
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/fit_table.html" class="md-nav__link">
+        Fit Table
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/fix_file.html" class="md-nav__link">
+        Fix File
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/glean_basis.html" class="md-nav__link">
+        Glean Basis
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/http_select.html" class="md-nav__link">
+        HTTP Select
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/irr.html" class="md-nav__link">
+        IRR
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/import_format.html" class="md-nav__link">
+        Import Format
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/import_parameters.html" class="md-nav__link">
+        Import Parameters
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/import_ranges.html" class="md-nav__link">
+        Import Ranges
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_94" >
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_94" id="__nav_1_94_label" tabindex="0">
+          Ind Annuity
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_94_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1_94">
+          <span class="md-nav__icon md-icon"></span>
+          Ind Annuity
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/ind_annuity%2Bmortality.html" class="md-nav__link">
+        Mortality
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/ind_annuity%2Bpayment.html" class="md-nav__link">
+        Payment
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/insert_rates.html" class="md-nav__link">
+        Insert Rates
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/interpolate_rates.html" class="md-nav__link">
+        Interpolate Rates
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/log_on.html" class="md-nav__link">
+        Log On
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/msar.html" class="md-nav__link">
+        MSAR
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_99" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_99" id="__nav_1_99_label" tabindex="0">
+          Migrate S21PPF
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_99_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1_99">
+          <span class="md-nav__icon md-icon"></span>
+          Migrate S21PPF
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/migrate_s21ppf%2Banomaly.html" class="md-nav__link">
+        Anomaly
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/migrate_s21ppf%2Boverwrite.html" class="md-nav__link">
+        Overwrite
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/migrate_s21ppf%2Bsets.html" class="md-nav__link">
+        Sets
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/migrate_s21ppf%2Bsummary.html" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_100" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_100" id="__nav_1_100_label" tabindex="0">
+          Migration Names
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_100_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1_100">
+          <span class="md-nav__icon md-icon"></span>
+          Migration Names
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/migration_names%2Bactives.html" class="md-nav__link">
+        Actives
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/migration_names%2Bdeferreds.html" class="md-nav__link">
+        Deferreds
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/migration_names%2Bpensioners.html" class="md-nav__link">
+        Pensioners
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/mort_improvement.html" class="md-nav__link">
+        Mort Improvement
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/mortality_rate.html" class="md-nav__link">
+        Mortality Rate
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/mortality_rate_select.html" class="md-nav__link">
+        Mortality Rate Select
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/ne_age_review.html" class="md-nav__link">
+        NE Age Review
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/ne_model.html" class="md-nav__link">
+        NE Model
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/ne_salary_review.html" class="md-nav__link">
+        NE Salary Review
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/new_entrant_age.html" class="md-nav__link">
+        New Entrant Age
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/new_entrant_salary.html" class="md-nav__link">
+        New Entrant Salary
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/open.html" class="md-nav__link">
+        Open
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/ppf_audit.html" class="md-nav__link">
+        PPF Audit
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/ppf_caps.html" class="md-nav__link">
+        PPF Caps
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/ppf_caps_edit.html" class="md-nav__link">
+        PPF Caps Edit
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/ppf_details.html" class="md-nav__link">
+        PPF Details
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_114" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_114" id="__nav_1_114_label" tabindex="0">
+          PPF Overrides
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_114_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1_114">
+          <span class="md-nav__icon md-icon"></span>
+          PPF Overrides
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/ppf_overrides%2Bdemographic.html" class="md-nav__link">
+        Demographic
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/ppf_overrides%2Bmortality.html" class="md-nav__link">
+        Mortality
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/ppf_overrides%2Bs143parameters.html" class="md-nav__link">
+        s143Parameters
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/ppf_yields.html" class="md-nav__link">
+        PPF Yields
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/ppf_yields_edit.html" class="md-nav__link">
+        PPF Yields Edit
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_117" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_117" id="__nav_1_117_label" tabindex="0">
+          PenFormat
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_117_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1_117">
+          <span class="md-nav__icon md-icon"></span>
+          PenFormat
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/penformat%2Bcurrent.html" class="md-nav__link">
+        Current
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/penformat%2Bnon_standard.html" class="md-nav__link">
+        Non Standard
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/penformat%2Bprevious.html" class="md-nav__link">
+        Previous
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/penformat%2Bvalidation.html" class="md-nav__link">
+        Validation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/pensioners_aos.html" class="md-nav__link">
+        Pensioners AOS
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_119" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_119" id="__nav_1_119_label" tabindex="0">
+          Pensioners Basis
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_119_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1_119">
+          <span class="md-nav__icon md-icon"></span>
+          Pensioners Basis
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/pensioners_basis%2Bfinancial.html" class="md-nav__link">
+        Financial
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/pensioners_basis%2Blegislation.html" class="md-nav__link">
+        Legislation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/pensioners_basis%2Bmain.html" class="md-nav__link">
+        Main
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/pensioners_basis%2Bmortality.html" class="md-nav__link">
+        Mortality
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/pensioners_basis%2Bppfcap.html" class="md-nav__link">
+        PPFCAP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/pensioners_basis%2Bpensions.html" class="md-nav__link">
+        Pensions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/pensioners_basis%2Bspouse.html" class="md-nav__link">
+        Spouse
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/prepare_database.html" class="md-nav__link">
+        Prepare Database
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/print_dialog.html" class="md-nav__link">
+        Print Dialog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/qsm_graphs.html" class="md-nav__link">
+        QSM Graphs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/qsm_solve.html" class="md-nav__link">
+        QSM Solve
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_124" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_124" id="__nav_1_124_label" tabindex="0">
+          Quick Scenario
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_124_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1_124">
+          <span class="md-nav__icon md-icon"></span>
+          Quick Scenario
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/quick_scenario%2Bbenefits.html" class="md-nav__link">
+        Benefits
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/quick_scenario%2Bdemographic.html" class="md-nav__link">
+        Demographic
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/quick_scenario%2Bfinancial.html" class="md-nav__link">
+        Financial
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/quick_scenario%2Bfunding.html" class="md-nav__link">
+        Funding
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/quick_scenario%2Brollforward.html" class="md-nav__link">
+        RollForward
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/rtaudit.html" class="md-nav__link">
+        RTAudit
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/rate_table_editor.html" class="md-nav__link">
+        Rate Table Editor
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/rate_tables.html" class="md-nav__link">
+        Rate Tables
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/reconciliation.html" class="md-nav__link">
+        Reconciliation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/release_decr.html" class="md-nav__link">
+        Release Decr
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/replace.html" class="md-nav__link">
+        Replace
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/retire_database.html" class="md-nav__link">
+        Retire Database
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/retirement_age.html" class="md-nav__link">
+        Retirement Age
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/retirement_cash.html" class="md-nav__link">
+        Retirement Cash
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/retirement_factors.html" class="md-nav__link">
+        Retirement Factors
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_135" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_135" id="__nav_1_135_label" tabindex="0">
+          Roll Forward
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_135_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1_135">
+          <span class="md-nav__icon md-icon"></span>
+          Roll Forward
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/roll_forward%2Badjustment1.html" class="md-nav__link">
+        Adjustment1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/roll_forward%2Badjustment2.html" class="md-nav__link">
+        Adjustment2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/roll_forward%2Badjustment3.html" class="md-nav__link">
+        Adjustment3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/roll_forward%2Badjustment4.html" class="md-nav__link">
+        Adjustment4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/roll_forward%2Badjustment5.html" class="md-nav__link">
+        Adjustment5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/roll_forward%2Badjustment6.html" class="md-nav__link">
+        Adjustment6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/roll_forward%2Badjustment7.html" class="md-nav__link">
+        Adjustment7
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/roll_forward%2Badjustment8.html" class="md-nav__link">
+        Adjustment8
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/roll_forward%2Badjustment9.html" class="md-nav__link">
+        Adjustment9
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/roll_forward%2Bchanges.html" class="md-nav__link">
+        Changes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/roll_forward%2Bdata.html" class="md-nav__link">
+        Data
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/run_scenarios.html" class="md-nav__link">
+        Run Scenarios
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/sql_access.html" class="md-nav__link">
+        SQL Access
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/saveas.html" class="md-nav__link">
+        SaveAs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/scenario_output.html" class="md-nav__link">
+        Scenario Output
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/scenarios_report.html" class="md-nav__link">
+        Scenarios Report
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_141" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_141" id="__nav_1_141_label" tabindex="0">
+          Scenarios
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_141_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1_141">
+          <span class="md-nav__icon md-icon"></span>
+          Scenarios
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/scenarios%2Bcommtables.html" class="md-nav__link">
+        CommTables
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/scenarios%2Bdecrements.html" class="md-nav__link">
+        Decrements
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/scenarios%2Bfinancials.html" class="md-nav__link">
+        Financials
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/scenarios%2Bmortimprovement.html" class="md-nav__link">
+        MortImprovement
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/scenarios%2Bmortality.html" class="md-nav__link">
+        Mortality
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/scenarios%2Bnemodel.html" class="md-nav__link">
+        NEModel
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/scenarios%2Bretcash.html" class="md-nav__link">
+        RetCash
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/scenarios%2Bretfactors.html" class="md-nav__link">
+        RetFactors
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/scenarios%2Bretirementage.html" class="md-nav__link">
+        RetirementAge
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/scenarios%2Bspouse.html" class="md-nav__link">
+        Spouse
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/scenarios%2Bspreaddates.html" class="md-nav__link">
+        SpreadDates
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/scenarios%2Bvaluationdata.html" class="md-nav__link">
+        ValuationData
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/select.html" class="md-nav__link">
+        Select
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/select_batch.html" class="md-nav__link">
+        Select Batch
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/select_excelrange.html" class="md-nav__link">
+        Select ExcelRange
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/select_rates.html" class="md-nav__link">
+        Select Rates
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/select_scenario.html" class="md-nav__link">
+        Select Scenario
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/selection_dialog.html" class="md-nav__link">
+        Selection Dialog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/set_font.html" class="md-nav__link">
+        Set Font
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/snapshot_review.html" class="md-nav__link">
+        Snapshot Review
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/snapshot_salary.html" class="md-nav__link">
+        Snapshot Salary
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/spouse_parameters.html" class="md-nav__link">
+        Spouse Parameters
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/spreading_dates.html" class="md-nav__link">
+        Spreading Dates
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/sub_addedit.html" class="md-nav__link">
+        Sub AddEdit
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/system_preferences.html" class="md-nav__link">
+        System Preferences
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/update_database.html" class="md-nav__link">
+        Update Database
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/user_preferences.html" class="md-nav__link">
+        User Preferences
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/users.html" class="md-nav__link">
+        Users
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/users_sqlupdate.html" class="md-nav__link">
+        Users SQLUpdate
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_159" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_159" id="__nav_1_159_label" tabindex="0">
+          V9Migration
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_159_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1_159">
+          <span class="md-nav__icon md-icon"></span>
+          V9Migration
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/v9migration%2Banomaly.html" class="md-nav__link">
+        Anomaly
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/v9migration%2Bbases.html" class="md-nav__link">
+        Bases
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/v9migration%2Bconts.html" class="md-nav__link">
+        Conts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/v9migration%2Bincrease.html" class="md-nav__link">
+        Increase
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/v9migration%2Binflation.html" class="md-nav__link">
+        Inflation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/v9migration%2Binterest.html" class="md-nav__link">
+        Interest
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/v9migration%2Bmortimp.html" class="md-nav__link">
+        MortImp
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/v9migration%2Bmortality.html" class="md-nav__link">
+        Mortality
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/v9migration%2Bnem.html" class="md-nav__link">
+        NEM
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/v9migration%2Boverwrite.html" class="md-nav__link">
+        Overwrite
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/v9migration%2Bparms.html" class="md-nav__link">
+        Parms
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/v9migration%2Brevaluation.html" class="md-nav__link">
+        Revaluation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/v9migration%2Bselmort.html" class="md-nav__link">
+        SelMort
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/v9migration%2Bsummary.html" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_160" >
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_160" id="__nav_1_160_label" tabindex="0">
+          Validation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_160_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1_160">
+          <span class="md-nav__icon md-icon"></span>
+          Validation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/validation%2Bparameters.html" class="md-nav__link">
+        Parameters
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/validation%2Branges.html" class="md-nav__link">
+        Ranges
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+      
+      
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../index.html">InFocus</a>
+          
+            <label for="__nav_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          InFocus
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../a-day-cash/index.html" class="md-nav__link">
+        A-Day Cash
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../accurate-scenario-modelling/index.html" class="md-nav__link">
+        Accurate Scenario Modelling
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../alm-ldi-interface/index.html" class="md-nav__link">
+        ALM/LDI interface
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../analysis-of-surplus/index.html" class="md-nav__link">
+        Analysis of surplus
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../calculation-of-pv-1pct-salaries/index.html" class="md-nav__link">
+        Calculation of PV 1% salaries
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cashflow-and-consolidation/index.html" class="md-nav__link">
+        Cashflow and consolidation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions/index.html" class="md-nav__link">
+        Contributions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../database-output/index.html" class="md-nav__link">
+        Database output
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dis-benefits/index.html" class="md-nav__link">
+        Death-in-Service benefits
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../equalisation-of-retirement-ages/index.html" class="md-nav__link">
+        Equalisation of retirement ages
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../importing-data/index.html" class="md-nav__link">
+        Importing data
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../load-sharing/index.html" class="md-nav__link">
+        Load sharing
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mortality-setup/index.html" class="md-nav__link">
+        Mortality setup
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../non-ppf-capped-runs/index.html" class="md-nav__link">
+        Non-PPF-capped valuations
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../offsetting-gmps/index.html" class="md-nav__link">
+        Offsetting GMPs in pension slices
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ppf-s143/index.html" class="md-nav__link">
+        PPF S143 (Entry) valuations
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ppf-s179/index.html" class="md-nav__link">
+        PPF S179 (Levy) valuations
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pre-spa-pensioners/index.html" class="md-nav__link">
+        Pre-SPA pensioners
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../projecting-discontinuance-benefits/index.html" class="md-nav__link">
+        Projecting discontinuance benefits
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../proportion-married/index.html" class="md-nav__link">
+        Proportion married
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quick-scenario-modelling/index.html" class="md-nav__link">
+        Quick scenario modelling
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rate-tables/index.html" class="md-nav__link">
+        Rate tables
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../salary-projections/index.html" class="md-nav__link">
+        Salary projections
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pensions-at-dol/index.html" class="md-nav__link">
+        Specifying pensions at date of leaving
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../transfer-values/index.html" class="md-nav__link">
+        Transfer values
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../valuation-statistics/index.html" class="md-nav__link">
+        Valuation statistics
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Valuing cash benefits
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="index.html" class="md-nav__link md-nav__link--active">
+        Valuing cash benefits
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    Overview
+  </a>
+  
+    <nav class="md-nav" aria-label="Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#actives" class="md-nav__link">
+    Actives
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deferreds" class="md-nav__link">
+    Deferreds
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actives_1" class="md-nav__link">
+    Actives
+  </a>
+  
+    <nav class="md-nav" aria-label="Actives">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#normalearlydeferred-retirement-cash" class="md-nav__link">
+    (Normal/Early/Deferred) Retirement Cash
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ill-health-retirement-cash" class="md-nav__link">
+    Ill-health retirement cash
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters" class="md-nav__link">
+    Parameters
+  </a>
+  
+    <nav class="md-nav" aria-label="Parameters">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#options" class="md-nav__link">
+    Options
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#priority" class="md-nav__link">
+    Priority
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ignore-gmp-in-split" class="md-nav__link">
+    Ignore GMP in Split?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#commutation-tables" class="md-nav__link">
+    Commutation tables
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#varprint" class="md-nav__link">
+    VarPrint
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pre-retirement-cash-benefits" class="md-nav__link">
+    Pre-retirement cash benefits
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#did-cash-benefits" class="md-nav__link">
+    DID cash benefits
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benefit-basis-malesfemales" class="md-nav__link">
+    Benefit Basis (Males/Females)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deferreds_1" class="md-nav__link">
+    Deferreds
+  </a>
+  
+    <nav class="md-nav" aria-label="Deferreds">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ret-cash-and-ret-cot-tabs" class="md-nav__link">
+    Ret Cash and Ret COT tabs
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#commutation-table-malesfemales" class="md-nav__link">
+    Commutation table (Males/Females)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pups" class="md-nav__link">
+    PUPs
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-cash-cap" class="md-nav__link">
+    Using Cash Cap
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pre-retirement-cash-benefits_1" class="md-nav__link">
+    Pre-retirement cash benefits
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#appendix" class="md-nav__link">
+    Appendix
+  </a>
+  
+    <nav class="md-nav" aria-label="Appendix">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#actives-pro-rata-examples" class="md-nav__link">
+    Actives – Pro-rata examples
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deferreds_2" class="md-nav__link">
+    Deferreds
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../valuing-withdrawal-benefits/index.html" class="md-nav__link">
+        Valuing withdrawal benefits
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../yield-curves/index.html" class="md-nav__link">
+        Yield curves
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    Overview
+  </a>
+  
+    <nav class="md-nav" aria-label="Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#actives" class="md-nav__link">
+    Actives
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deferreds" class="md-nav__link">
+    Deferreds
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actives_1" class="md-nav__link">
+    Actives
+  </a>
+  
+    <nav class="md-nav" aria-label="Actives">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#normalearlydeferred-retirement-cash" class="md-nav__link">
+    (Normal/Early/Deferred) Retirement Cash
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ill-health-retirement-cash" class="md-nav__link">
+    Ill-health retirement cash
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters" class="md-nav__link">
+    Parameters
+  </a>
+  
+    <nav class="md-nav" aria-label="Parameters">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#options" class="md-nav__link">
+    Options
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#priority" class="md-nav__link">
+    Priority
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ignore-gmp-in-split" class="md-nav__link">
+    Ignore GMP in Split?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#commutation-tables" class="md-nav__link">
+    Commutation tables
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#varprint" class="md-nav__link">
+    VarPrint
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pre-retirement-cash-benefits" class="md-nav__link">
+    Pre-retirement cash benefits
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#did-cash-benefits" class="md-nav__link">
+    DID cash benefits
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benefit-basis-malesfemales" class="md-nav__link">
+    Benefit Basis (Males/Females)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deferreds_1" class="md-nav__link">
+    Deferreds
+  </a>
+  
+    <nav class="md-nav" aria-label="Deferreds">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ret-cash-and-ret-cot-tabs" class="md-nav__link">
+    Ret Cash and Ret COT tabs
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#commutation-table-malesfemales" class="md-nav__link">
+    Commutation table (Males/Females)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pups" class="md-nav__link">
+    PUPs
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-cash-cap" class="md-nav__link">
+    Using Cash Cap
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pre-retirement-cash-benefits_1" class="md-nav__link">
+    Pre-retirement cash benefits
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#appendix" class="md-nav__link">
+    Appendix
+  </a>
+  
+    <nav class="md-nav" aria-label="Appendix">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#actives-pro-rata-examples" class="md-nav__link">
+    Actives – Pro-rata examples
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deferreds_2" class="md-nav__link">
+    Deferreds
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="valuing-cash-benefits">Valuing cash benefits<a class="headerlink" href="#valuing-cash-benefits" title="Permanent link">&para;</a></h1>
+<p>Some schemes will pay cash benefits on retirement or death in addition to pension benefits or by commuting pension for cash amounts. This note sets out how to value these benefits in SuperVal.</p>
+<div class="admonition info">
+<p class="admonition-title">This article is based on version 9.25 of SuperVal.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Client Code</p>
+<p>Users with Client Code 3 have more flexibility in valuing cash benefits than  with Client Code 0. </p>
+<p>Setups are considered for both client codes in this article.</p>
+</div>
+<p>This article does not include specific details of how to set up or value cash benefits for PPF runs and capped non-PPF runs.</p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M480 96c17.7 0 32 14.3 32 32s-14.3 32-32 32H272V96h208zM320 288c17.7 0 32 14.3 32 32s-14.3 32-32 32h-64c-17.7 0-32-14.3-32-32s14.3-32 32-32h64zm64-64c0 17.7-14.3 32-32 32h-48c-17.7 0-32-14.3-32-32s14.3-32 32-32h48c17.7 0 32 14.3 32 32zm-96 160c17.7 0 32 14.3 32 32s-14.3 32-32 32h-64c-17.7 0-32-14.3-32-32s14.3-32 32-32h64zm-88-96h.6c-5.4 9.4-8.6 20.3-8.6 32 0 13.2 4 25.4 10.8 35.6-24.9 8.7-42.8 32.5-42.8 60.4 0 11.7 3.1 22.6 8.6 32H160C71.6 448 0 376.4 0 288v-61.7c0-42.4 16.9-83.1 46.9-113.1l11.6-11.6C82.5 77.5 115.1 64 149 64h27c35.3 0 64 28.7 64 64v88c0 22.1-17.9 40-40 40s-40-17.9-40-40v-56c0-8.8-7.2-16-16-16s-16 7.2-16 16v56c0 39.8 32.2 72 72 72z"/></svg></span>
+<a href="../ppf-s179/index.html">PPF S179 (Levy) Valuations</a>
+<br>
+<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M480 96c17.7 0 32 14.3 32 32s-14.3 32-32 32H272V96h208zM320 288c17.7 0 32 14.3 32 32s-14.3 32-32 32h-64c-17.7 0-32-14.3-32-32s14.3-32 32-32h64zm64-64c0 17.7-14.3 32-32 32h-48c-17.7 0-32-14.3-32-32s14.3-32 32-32h48c17.7 0 32 14.3 32 32zm-96 160c17.7 0 32 14.3 32 32s-14.3 32-32 32h-64c-17.7 0-32-14.3-32-32s14.3-32 32-32h64zm-88-96h.6c-5.4 9.4-8.6 20.3-8.6 32 0 13.2 4 25.4 10.8 35.6-24.9 8.7-42.8 32.5-42.8 60.4 0 11.7 3.1 22.6 8.6 32H160C71.6 448 0 376.4 0 288v-61.7c0-42.4 16.9-83.1 46.9-113.1l11.6-11.6C82.5 77.5 115.1 64 149 64h27c35.3 0 64 28.7 64 64v88c0 22.1-17.9 40-40 40s-40-17.9-40-40v-56c0-8.8-7.2-16-16-16s-16 7.2-16 16v56c0 39.8 32.2 72 72 72z"/></svg></span>
+<a href="../non-ppf-capped-runs/index.html">Non-PPF Capped Runs</a></p>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<h3 id="actives">Actives<a class="headerlink" href="#actives" title="Permanent link">&para;</a></h3>
+<p>Post-Retirement cash benefits for active members can be made payable on the following events:</p>
+<ul>
+<li>Normal &amp; Early Retirement</li>
+<li>Ill Health Retirement</li>
+<li>Deferred Normal Retirement</li>
+</ul>
+<p>The cash benefit can be provided <em>either</em> on top of pension benefits <em>or</em> through commuting the pension.</p>
+<div class="admonition tip">
+<p class="admonition-title">Client Code 3 users</p>
+<p>A combination of <em>both</em> cash on top <em>and</em> cash commuted can be specified if required.</p>
+</div>
+<p>There is flexibility available for specifying which pension is commuted for cash.
+Further commutation factors can be specified for each pension increase rate.</p>
+<p>Pre-retirement cash benefits are also considered in this article.</p>
+<h3 id="deferreds">Deferreds<a class="headerlink" href="#deferreds" title="Permanent link">&para;</a></h3>
+<p>Post-retirement cash benefits for Deferreds can be made payable on:</p>
+<ul>
+<li>Normal &amp; Early Retirement</li>
+</ul>
+<p>As with actives, the retirement cash can be payable <em>either</em> on top of pension benefits <em>or</em> provided through commuting the pension.</p>
+<div class="admonition tip">
+<p class="admonition-title">Client Code 3 users</p>
+<p>A combination of <em>both</em> cash on top <em>and</em> cash commuted can be specified if required.</p>
+</div>
+<p>There is, however, no flexibility (as yet) in determining the pension that is commuted for cash and there is only one set of cash commutation factors (CCFs) that can be used.</p>
+<div class="admonition tip">
+<p class="admonition-title">Client Code 3 users</p>
+<p>There is the option of commuting main or special pensions first or applying the pro-rata method, and also defining two sets of CCFs.</p>
+</div>
+<p>Pre-Retirement cash benefits are also considered in this article.</p>
+<h2 id="actives_1">Actives<a class="headerlink" href="#actives_1" title="Permanent link">&para;</a></h2>
+<h3 id="normalearlydeferred-retirement-cash">(Normal/Early/Deferred) Retirement Cash<a class="headerlink" href="#normalearlydeferred-retirement-cash" title="Permanent link">&para;</a></h3>
+<p>The Retirement Cash parameters can be specified on the <em>Ret Cash</em> and <em>Ret COT</em> tabs:</p>
+<p>Ret Cash:</p>
+<p><img alt="" src="media/image3.png" /></p>
+<p>Ret COT:</p>
+<p><img alt="" src="media/image4.png" /></p>
+<h3 id="ill-health-retirement-cash">Ill-health retirement cash<a class="headerlink" href="#ill-health-retirement-cash" title="Permanent link">&para;</a></h3>
+<p>These parameters are specified on the <em>IH Cash</em> tab. The <em>IH Cash</em> tab is very similar to the <em>Ret Cash</em> tab (the fields are the same except for the additional fields <em>Include Prospective Service?</em> and <em>Male/Female Reduction Factors</em>):</p>
+<p>IH Cash:</p>
+<p><img alt="" src="media/image5.png" /></p>
+<p>IH COT:</p>
+<p><img alt="" src="media/image6.png" /></p>
+<h3 id="parameters">Parameters<a class="headerlink" href="#parameters" title="Permanent link">&para;</a></h3>
+<h4 id="options">Options<a class="headerlink" href="#options" title="Permanent link">&para;</a></h4>
+<p>There are eight cash benefit ‘options’ or ‘types’ for active members:</p>
+<p><img alt="" src="media/image7.png" /></p>
+<dl>
+<dt>Neutral or Nil</dt>
+<dd>
+<p>No retirement cash benefit will be valued.</p>
+</dd>
+<dt>25% Pension, 2.25 × Pension, and 3 × Pension</dt>
+<dd>
+<p>These can still be used, but have effectively been superseded by <code>Multiple of Pension</code> and <code>% of Pension</code>, which are more flexible. (See below.)</p>
+</dd>
+<dt>IR Maximum</dt>
+<dd>
+<p>can also still be selected, but is rarely chosen by SuperVal users.</p>
+</dd>
+<dt>Accrual × Salary for each year</dt>
+<dd>
+<p>This option unlocks three fields:</p>
+<dl>
+<dt>Accrual Rate</dt>
+<dd>
+<p>Type in the required accrual rate e.g. 3/80ths = 3.75%</p>
+</dd>
+<dt>Salary</dt>
+<dd>
+<p>Select one of the salary projections (1 to 9) specified on the <em>Salary</em> tab to be used for retirement-cash calculation.</p>
+</dd>
+<dt>Service</dt>
+<dd>
+<p>There are two options to choose from:</p>
+<pre><code>M – Scheme Membership
+S – Company Service
+</code></pre>
+<p>Where option <code>M</code> is selected SuperVal will calculate service using standard date data item <code>DJF – DoJ Scheme</code>.
+So ensure <code>DJF</code> is specified in your data format and in your data for this option.</p>
+<p>Where option <code>S</code> is selected SuperVal will calculate service using standard data date item <code>DJS – DoJ Company</code>.
+So ensure <code>DJS</code> is specified in your data format and in your data for this option.</p>
+<p>NB: If there is no Slice 1 then there will be no future-service cash calculated.</p>
+</dd>
+</dl>
+<p><strong>Maximum Service</strong>
+The setting for the service <em>Maximum</em> on the <em>Retirement</em>
+tab will apply to the <em>Service</em> calculation for the 3/80ths cash
+benefit.</p>
+<p><strong>Added Years</strong> will not be included in the service calculation for the
+<code>Accrual × Salary for each year</code> option unless the data items <code>DJF</code> or
+<code>DJS</code> are backdated as appropriate.</p>
+</dd>
+<dt>Multiple of Pension or % of Pension</dt>
+<dd>
+<p>Enter either the multiple or percentage that applies.</p>
+<p>You can also specify member-specific multiples/percentages within
+the CSV file and select the relevant data item for the <em>Cash
+Multiple</em> or <em>Cash Percentage</em> field.</p>
+</dd>
+<dt>% of A Day Cash</dt>
+<dd>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M480 96c17.7 0 32 14.3 32 32s-14.3 32-32 32H272V96h208zM320 288c17.7 0 32 14.3 32 32s-14.3 32-32 32h-64c-17.7 0-32-14.3-32-32s14.3-32 32-32h64zm64-64c0 17.7-14.3 32-32 32h-48c-17.7 0-32-14.3-32-32s14.3-32 32-32h48c17.7 0 32 14.3 32 32zm-96 160c17.7 0 32 14.3 32 32s-14.3 32-32 32h-64c-17.7 0-32-14.3-32-32s14.3-32 32-32h64zm-88-96h.6c-5.4 9.4-8.6 20.3-8.6 32 0 13.2 4 25.4 10.8 35.6-24.9 8.7-42.8 32.5-42.8 60.4 0 11.7 3.1 22.6 8.6 32H160C71.6 448 0 376.4 0 288v-61.7c0-42.4 16.9-83.1 46.9-113.1l11.6-11.6C82.5 77.5 115.1 64 149 64h27c35.3 0 64 28.7 64 64v88c0 22.1-17.9 40-40 40s-40-17.9-40-40v-56c0-8.8-7.2-16-16-16s-16 7.2-16 16v56c0 39.8 32.2 72 72 72z"/></svg></span> <a href="../a-day-cash/index.html">A-Day Cash</a></p>
+</dd>
+<dt>Include Prospective Cash?</dt>
+<dd>
+<p>This field appears for <em>Ill Health Retirement Cash</em> benefits only.</p>
+<p>By answering <code>Yes</code> the prospective (exit to NRD) service multiplied by the Future Service Fraction will be included in the cash calculation.</p>
+</dd>
+<dt>Reduction Factors (Male &amp; Female)?</dt>
+<dd>
+<p>These fields appear for <em>Ill Health Retirement Cash</em> benefits only.</p>
+</dd>
+<dt>On Top or Commuted?</dt>
+<dd>
+<p>Specify whether the cash benefit is <code>Cash On Top</code> payable on top of your pension benefits or <code>Commutation</code> payable through commutation of the retirement pension.</p>
+<p>The commutation of the pension for the cash benefit is determined by the settings for the fields <em>Priority</em> and <em>Commutation Tables</em>.</p>
+<div class="admonition tip">
+<p class="admonition-title">A combination of <em>both</em> cash on top <em>and</em> cash commuted can be specified, so this field is not included in CC3.</p>
+</div>
+</dd>
+</dl>
+<h4 id="priority">Priority<a class="headerlink" href="#priority" title="Permanent link">&para;</a></h4>
+<p>This is used where the pension is commuted for cash. You can specify a priority order for commuting pension for cash.</p>
+<p>The options are:</p>
+<pre><code>A – After Split
+B – Before Split
+N – No Priority
+P – Pro Rata
+</code></pre>
+<p>The <code>Split</code> in options <code>A</code> and <code>B</code> refer to the Slice <code>Not After Date</code> for the <em>Offset Slice No.</em> specified on the <em>Financial</em> tab.</p>
+<p>Typically an active member will have a service timeline as shown in the following diagram:</p>
+<p><img alt="" src="media/image8.png" /></p>
+<dl>
+<dt>After Split</dt>
+<dd>
+<p>In the above timeline priority option <code>A – After Split</code> would mean that the pension accruing post 6/4/1997 will be commuted for cash first.</p>
+</dd>
+<dt>Before Split</dt>
+<dd>
+<p>In the above timeline priority option <code>B – Before Split</code> would mean that the pension accruing pre 6/4/1997 will be commuted for cash first.</p>
+</dd>
+</dl>
+<p>Note that for either of the time periods <em>After Split</em> or <em>Before Split</em> one or more of the pension-increase rates in payment Main, Special, PenInc3 or PenInc4 may apply. (The pension-increase rates Main, Special, PenInc3 and PenInc4 are indicated on the Slices.)</p>
+<p>Within the <em>After Split</em> or <em>Before Split</em> time period the cash commutation order of the pension is:</p>
+<pre><code>Special
+Main
+PenInc3
+PenInc4
+</code></pre>
+<dl>
+<dt>No Priority</dt>
+<dd>
+<p>The cash commutation order is simply by the pension-increase rate order, ignoring time period. In other words:</p>
+<pre><code>Special
+Main
+PenInc3
+PenInc4
+</code></pre>
+<p>This is regardless of when these pensions have accrued.</p>
+</dd>
+<dt>Pro Rata</dt>
+<dd>
+<p>The pension will simply be commuted for cash in proportion, ignoring pension-increase rate and timing.</p>
+<p>Note that SuperVal calculates the split between pension and cash by pro-rating the pension commuted.</p>
+<p>See Appendix for a worked example.</p>
+</dd>
+</dl>
+<h4 id="ignore-gmp-in-split">Ignore GMP in Split?<a class="headerlink" href="#ignore-gmp-in-split" title="Permanent link">&para;</a></h4>
+<p>This enables the split between Pre-97 and Post-97 benefit to be done in the correct proportions.</p>
+<p>If <code>Y-Yes</code> is selected then SuperVal will not take off the GMP from
+the Pre-97 benefit before calculating the proportions.</p>
+<p>Please note if <code>Y - Yes</code> is chosen then GMP may be commuted depending
+on the options chosen and the size of the GMP, but will still pay the
+whole of the GMP at SPA. This may overstate the liability.</p>
+<p>See Appendix for a worked example.</p>
+<h4 id="commutation-tables">Commutation tables<a class="headerlink" href="#commutation-tables" title="Permanent link">&para;</a></h4>
+<p>Specify the table codes that contain the cash commutation factors for males and females. These are typically tables with three decimal places i.e. <code>GX</code> type rate tables. (Note that you should use mid-year values for ages below NRA – because SuperVal assumes mid-year exits, and does <em>not</em> interpolate).</p>
+<p>The factors may vary by pension-increase rate. Therefore a different table can be specified for Main, Special, PenInc3 or PenInc4 pension-increase rates. If the Scheme only uses one set of cash commutation factors, specify this table for <em>all 4</em> of the pension-increase rates.</p>
+<div class="admonition tip">
+<p class="admonition-title">Client Code 3 users</p>
+<p>Cash benefits can also be defined in the <em>Ind Slices</em> tab within each slice for CC3 users.</p>
+<p>By setting the start age and end age as the same (either by specifying the ages on the slice or using a member-specific data item), SuperVal will value the benefit as cash.</p>
+</div>
+<p>Allowing for Maximum Pension Commencement Lump Sum (PCLS)</p>
+<p>SuperVal does not currently give users the option to use the maximum PCLS, and so it needs to be valued via the <code>% of Pension</code> option. In the majority of cases, the proportion will vary by member, and so you will need to calculate it outside of SuperVal and then use the cash multiple field to define it as a member-specific item.</p>
+<h4 id="varprint">VarPrint<a class="headerlink" href="#varprint" title="Permanent link">&para;</a></h4>
+<p>The VarPrint shows in section 1400 the calculation of the Normal &amp; Early Retirement Cash.
+Where the Retirement Pension is commuted for Cash, the post-commutation pension is shown in section 1600.
+For Leaving Service Cash, this is shown in section 2510.</p>
+<h4 id="pre-retirement-cash-benefits">Pre-retirement cash benefits<a class="headerlink" href="#pre-retirement-cash-benefits" title="Permanent link">&para;</a></h4>
+<p>Cash benefits payable on the death of a member prior to retirement (either on death-in-service (DIS) or death-in-deferment (DID)) can be valued in SuperVal.</p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M480 96c17.7 0 32 14.3 32 32s-14.3 32-32 32H272V96h208zM320 288c17.7 0 32 14.3 32 32s-14.3 32-32 32h-64c-17.7 0-32-14.3-32-32s14.3-32 32-32h64zm64-64c0 17.7-14.3 32-32 32h-48c-17.7 0-32-14.3-32-32s14.3-32 32-32h48c17.7 0 32 14.3 32 32zm-96 160c17.7 0 32 14.3 32 32s-14.3 32-32 32h-64c-17.7 0-32-14.3-32-32s14.3-32 32-32h64zm-88-96h.6c-5.4 9.4-8.6 20.3-8.6 32 0 13.2 4 25.4 10.8 35.6-24.9 8.7-42.8 32.5-42.8 60.4 0 11.7 3.1 22.6 8.6 32H160C71.6 448 0 376.4 0 288v-61.7c0-42.4 16.9-83.1 46.9-113.1l11.6-11.6C82.5 77.5 115.1 64 149 64h27c35.3 0 64 28.7 64 64v88c0 22.1-17.9 40-40 40s-40-17.9-40-40v-56c0-8.8-7.2-16-16-16s-16 7.2-16 16v56c0 39.8 32.2 72 72 72z"/></svg></span>
+<a href="../dis-benefits/index.html">Valuing DIS Benefits</a></p>
+<h4 id="did-cash-benefits">DID cash benefits<a class="headerlink" href="#did-cash-benefits" title="Permanent link">&para;</a></h4>
+<p>DID benefits can be set up on the <em>Leaving Service</em> tab:</p>
+<p><img alt="" src="media/image9.png" /></p>
+<h4 id="benefit-basis-malesfemales">Benefit Basis (Males/Females)<a class="headerlink" href="#benefit-basis-malesfemales" title="Permanent link">&para;</a></h4>
+<p>There are four options:</p>
+<p><img alt="" src="media/image10.png" /></p>
+<dl>
+<dt>None</dt>
+<dd>
+<p>Self-explanatory</p>
+</dd>
+<dt>Return of Contributions</dt>
+<dd>
+<p>The benefit includes a return of past contributions, the value is in the <code>ACW</code> standard data item, and future contributions as specified in the <em>Contributions</em> tab. It is assumed ACW includes interest to the valuation date (if applicable).</p>
+<p>The <em>Interest Rate on Service</em> on the <em>Contributions</em> tab will apply to withdrawal.
+The <em>Interest Rate in Deferment</em> on the <em>Contributions</em> tab will apply from withdrawal to
+death in deferment.</p>
+</dd>
+<dt>Return of Contributions if No Spouse</dt>
+<dd>
+<p>This is same as <code>Return of Contributions</code> except contributions are returned only if there is no spouse on death in deferment. The benefit value is the product of that option and Proportion Married.</p>
+</dd>
+<dt>Multiple of Pension</dt>
+<dd>
+<p>Use this option where a cash benefit is payable on DID which is a multiple of the Deferred Retirement Pension.</p>
+</dd>
+</dl>
+<h2 id="deferreds_1">Deferreds<a class="headerlink" href="#deferreds_1" title="Permanent link">&para;</a></h2>
+<h3 id="ret-cash-and-ret-cot-tabs">Ret Cash and Ret COT tabs<a class="headerlink" href="#ret-cash-and-ret-cot-tabs" title="Permanent link">&para;</a></h3>
+<p>Ret Cash:</p>
+<p><img alt="" src="media/image11.png" /></p>
+<p>Ret COT:</p>
+<p><img alt="" src="media/image12.png" /></p>
+<p>The options in the tabs are:</p>
+<dl>
+<dt>Cash Indicator</dt>
+<dd>
+<p>Select whether the retirement cash benefit is payable <code>On Top</code> of pension or provided through <code>Commutation</code> of the pension.</p>
+<div class="admonition tip">
+<p class="admonition-title">Client Code 3 users</p>
+<p>A combination of <em>both</em> cash on top <em>and</em> cash commuted can be specified, so this field is not included in CC3.</p>
+</div>
+</dd>
+<dt>Multiple of Pension</dt>
+<dd>
+<p>The cash benefit can be a multiple of the retirement pension. Note that this means the cash amount will have been subject to the same deferred revaluation (excess and GMP) as the pension up to retirement age.</p>
+</dd>
+<dt>Percentage of pension</dt>
+<dd>
+<p>Alternatively, the cash benefit can be a percentage of the retirement pension multiplied by the relevant commutation-table factor.</p>
+<p>Again note that the cash will then be subject to the same deferred revaluation as the pension.</p>
+<div class="admonition tip">
+<p class="admonition-title">Client Code 3 users</p>
+<p>The Cash Multiple or Percentage amount may be input as a member specific data item (within the CSV file) using the relevant FIELD input.</p>
+</div>
+</dd>
+</dl>
+<h3 id="commutation-table-malesfemales">Commutation table (Males/Females)<a class="headerlink" href="#commutation-table-malesfemales" title="Permanent link">&para;</a></h3>
+<p>Select the cash commutation factor tables applicable. These tables will be used if the cash is provided through commuting the pension or if using the <code>Percentage of pension</code> benefit option.</p>
+<p>Note that only <em>one</em> set of cash factor tables can be specified.
+Furthermore, no <em>Priority</em> setting can be specified for Deferreds.
+Cash commutation for Deferreds will behave like the actives <em>Priority</em> setting <code>No Priority</code> (in other words, by pension-increase rate).
+This order is:</p>
+<pre><code>Special increasing pension
+Main increasing pension
+Pen Inc 3
+Pen Inc 4
+</code></pre>
+<p>It is therefore prudent with Deferreds, where more than one pension-increase rate is being used, to set the lowest pension-increase rate as Special. This is to ensure that the ‘cheaper’ pension is used up for commutation for cash first.
+See Appendix for a worked example.</p>
+<div class="admonition tip">
+<p class="admonition-title">Client Code 3 users</p>
+<p>For CC3 users, <em>four</em> sets of CCFs can be defined (for Main, Special, Peninc3 &amp; Peninc4 pensions), and Commutation Priority can also be specified.</p>
+</div>
+<h3 id="pups">PUPs<a class="headerlink" href="#pups" title="Permanent link">&para;</a></h3>
+<p><img alt="" src="media/image13.png" /></p>
+<p>Ensure the <em>Ignore for Cash</em> options in the PUPs are set accordingly. These can be useful if any pensions are non-commutable, or if Cash on Top is only provided on certain pensions</p>
+<h3 id="using-cash-cap">Using Cash Cap<a class="headerlink" href="#using-cash-cap" title="Permanent link">&para;</a></h3>
+<p>If the cash data item for each member is available you can use the <em>Cash Cap</em> region in the <em>Retirement Cash</em> tab to value the benefit:</p>
+<p><img alt="" src="media/image14.png" /></p>
+<p>Using this section gives complete control over the amount of retirement cash.
+The following parameters that can be applied to the cash data item:</p>
+<pre><code>Revaluation Rate
+Complete Years Only (early retirement exits)
+(NRA) Exit Rounding
+% Data Item
+Early Retirement Reduction Factor Table (ERF1 or ERF2)
+Adjustment Factor
+</code></pre>
+<p>Note, however, that this is a Cash <em>Cap</em>, i.e. the maximum amount each member can take.
+So, to ensure that this data item is valued, the formula on the <em>Benefits</em> screen needs to be set to a rate that will exceed the cash benefit specified in this <code>Cash Cap</code> column for every member.</p>
+<div class="admonition tip">
+<p class="admonition-title">Client Code 3 users</p>
+<p>Cash benefits can also be defined in the Ind PUPs Tab within each Ind PUP for CC3 users.</p>
+<p>By setting the start age and end age as the same (either by specifying the ages on the PUP or using a member-specific data item), SuperVal will value the benefit as cash.</p>
+</div>
+<h3 id="pre-retirement-cash-benefits_1">Pre-retirement cash benefits<a class="headerlink" href="#pre-retirement-cash-benefits_1" title="Permanent link">&para;</a></h3>
+<p>Death-in-Deferment cash benefits can be specified on the <em>Death</em> tab:</p>
+<p><img alt="" src="media/image15.png" /></p>
+<dl>
+<dt>Death Cash Multiple</dt>
+<dd>
+<p>If a lump sum multiple of Deferred Pension is payable on DID, enter the multiple applicable i.e. enter 5 for 5 × Pension.</p>
+</dd>
+<dt>Conts Data Item (Plus Conts Data Item)</dt>
+<dd>
+<p>If a return of contributions is payable on DID, then choose the data item for this field from the data CSV file. Up to two different contribution amounts can be selected (two separate fields)</p>
+</dd>
+<dt>Conts Interest Rate (Plus Conts Interest Rate)</dt>
+<dd>
+<p>If a return of contributions is payable on DID (specified in the previous field), input the interest rate to apply to the amount (from valuation date to decrement date). Since two separate contribution items can be specified, two separate interest rates can also be specified.</p>
+</dd>
+<dt>Add/Compare</dt>
+<dd>
+<p>If both <em>Death Cash Multiple</em> and (one or more) <em>Conts Data Item(s)</em> are specified, SuperVal can either value all benefits (i.e. add them up) or take the greater of the <em>Death Cash Multiple</em> and the (sum of the) <em>Conts Data Item(s)</em> (i.e. compare them). Select the appropriate option.</p>
+</dd>
+</dl>
+<h2 id="appendix">Appendix<a class="headerlink" href="#appendix" title="Permanent link">&para;</a></h2>
+<h3 id="actives-pro-rata-examples">Actives – Pro-rata examples<a class="headerlink" href="#actives-pro-rata-examples" title="Permanent link">&para;</a></h3>
+<div class="admonition example">
+<p class="admonition-title">Cash = 25% of pension – Cash Commutation on Retirement</p>
+<ul>
+<li>Member has 10 years’ Past Service (PS) and 10 years’ potential Future Service (FS) to assumed retirement age.</li>
+<li>Benefit is accrued uniformly over whole service period, but pension increases in 
+    respect of FS are higher than those in respect of PS.</li>
+<li>Cash Commutation Factor for PS= 10. Cash Commutation Factor for FS=15.</li>
+<li>Assume total projected pension benefit = £20,000.</li>
+<li>Assume 25% of pension is commuted.</li>
+</ul>
+</div>
+<p>SuperVal will commute pension as follows:</p>
+<pre><code>Total Pension commuted = 25% of £20,000 = £5,000
+</code></pre>
+<p>This is split in proportion to the pension, so 50% goes to PS and 50% to FS</p>
+<pre><code>PS: Pen comm = £2,500, Cash = £2,500 × 10 = £25,000
+FS: Pen comm = £2,500, Cash = £2,500 × 15 = £37,500
+
+Total cash                                = £62,500
+</code></pre>
+<p><strong>Note 1</strong>: SuperVal includes any ERFs or LRFs when working out the
+proportion of pension commuted.</p>
+<p><strong>Note 2</strong>: The position is skewed if there is GMP, and <em>Ignore GMP in
+split?</em> is set to <code>No</code>. The pension commuted is the same, but it’s
+assumed only to be taken from excess over GMP pension.
+For example, if GMP <strong>at retirement</strong> was £4,000 in the above example,
+then total excess is £16,000 (£6,000 PS and £10,000 FS). So:</p>
+<pre><code>PS: Pen comm = £5,000 × 6/16  = £1,875, Cash = £1,875 × 10 = £18,750
+FS: Pen comm = £5,000 × 10/16 = £3,125, Cash = £3,125 × 15 = £47,875
+
+Total cash                                                 = £65,625
+</code></pre>
+<p>If NRA&lt;SPA, Superval will also check that there is sufficient
+residual benefit at SPA to cover GMP – and limit the retirement cash
+if necessary.</p>
+<p><strong>Note 3</strong>: Only member’s pension will be commuted. The spouse’s DAR pension is valued based on the pre-commutation pension amounts.</p>
+<hr />
+<div class="admonition example">
+<p class="admonition-title">Cash = 2.25 × Pension</p>
+<ul>
+<li>Member has 10 years’ Past Service (PS) and 10 years’ potential Future Service (FS) to assumed retirement age.</li>
+<li>Benefit is accrued uniformly over whole service period, but pension increases in respect of FS are higher than those in respect of PS.</li>
+<li>Cash Commutation Factor for PS = 10. Cash Commutation Factor for FS=15.</li>
+<li>Assume total projected pension benefit = £20,000.</li>
+<li>Assume 2.25 × pension is taken as cash.</li>
+</ul>
+</div>
+<p>SuperVal will commute pension as follows:</p>
+<pre><code>Total cash = 2.25 × 20,000 = £45,000.
+</code></pre>
+<p>As noted earlier, <strong>SuperVal calculates the split between pension and
+cash by pro-rating the pension commuted.</strong> Therefore we need to
+calculate the proportion (P) commuted which will lead to a lump sum of
+£45,000:</p>
+<pre><code>P × (10,000 × 10 + 10,000 × 15)  = 45,000
+</code></pre>
+<p>Therefore P = 18%. So </p>
+<pre><code>PS pension = 0.82 × 10,000      =  £8,200
+PS cash    = 0.18 × 10,000 x 10 = £18,000
+</code></pre>
+<p>and </p>
+<pre><code>FS pension = 0.82 × 10,000      =  £8,200
+FS cash    = 0.18 × 10,000 x 15 = £27,000
+</code></pre>
+<p><strong>Note 1</strong>: SuperVal includes any ERFs or LRFs when
+working out the proportion of pension commuted.</p>
+<p><strong>Note 2</strong>: The position is skewed if there is GMP, and <em>Ignore GMP in
+split?</em> is set to <code>No</code>. The total cash is the same, but it’s assumed
+only to be taken from excess over GMP pension. Therefore P will end up
+higher. For example, if GMP <strong>at retirement</strong> was £4,000 in the above
+example, then then total excess is £16,000 (£6,000 PS and £10,000
+FS).</p>
+<pre><code>P × (6,000 × 10 + 10,000 × 15) = 45,000
+</code></pre>
+<p>and so P = 21.43%. So </p>
+<pre><code>PS pension = 0.7857 × 6,000 + 4,000 =  £8,712
+PS cash    = 0.2143 × 6,000 × 10    = £12,858
+</code></pre>
+<p>And </p>
+<pre><code>FS pension                          =  £7,857
+FS cash    = 0.2143 × 10,000 × 15   = £32,145
+</code></pre>
+<p>If NRA&lt;SPA, SuperVal will also check that there is sufficient residual benefit at SPA to cover GMP - and limit the retirement cash
+  if necessary.)</p>
+<p><strong>Note 3</strong>: Only member’s pension will be commuted. The spouse’s DAR
+pension is valued based on the pre-commutation pension amounts.</p>
+<hr />
+<div class="admonition example">
+<p class="admonition-title">Cash = 25% showing effect of Ignore Split</p>
+</div>
+<p>The tables below illustrate the resulting cash if other options are
+chosen for spreading the cash.</p>
+<p>In the examples below, the split date is set as VDATE.</p>
+<ol>
+<li>
+<p><code>Before Split</code> and <code>No Priority</code> (GMP = £6,000)</p>
+<table>
+<thead>
+<tr>
+<th>&nbsp;</th>
+<th>Pension increases</th>
+<th>Pre-commtn pension</th>
+<th>Pension commuted</th>
+<th>Commtn factor</th>
+<th>Cash</th>
+<th>Post-commtn pension</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GMP</td>
+<td></td>
+<td>4,000</td>
+<td></td>
+<td></td>
+<td></td>
+<td>4,000</td>
+</tr>
+<tr>
+<td>PS<br>(Excess)</td>
+<td>Special</td>
+<td>6,000</td>
+<td>5,000</td>
+<td>10</td>
+<td>50,000</td>
+<td>1,000</td>
+</tr>
+<tr>
+<td>FS</td>
+<td>Main</td>
+<td>10,000</td>
+<td></td>
+<td>15</td>
+<td>0</td>
+<td>10,000</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td></td>
+<td><strong>20,000</strong></td>
+<td><strong>5,000</strong></td>
+<td></td>
+<td><strong>50,000</strong></td>
+<td><strong>15,000</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Because PS has Special increases, it is commuted first if there is <code>No Priority</code>.</p>
+</li>
+<li>
+<p><code>Before Split</code> and <code>No Priority</code> (GMP = £6,000)</p>
+<table>
+<thead>
+<tr>
+<th>&nbsp;</th>
+<th>Pension increases</th>
+<th>Pre-commtn pension</th>
+<th>Pension commuted</th>
+<th>Commtn factor</th>
+<th>Cash</th>
+<th>Post-commtn pension</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GMP</td>
+<td></td>
+<td>6,000</td>
+<td></td>
+<td></td>
+<td></td>
+<td>6,000</td>
+</tr>
+<tr>
+<td>PS (Excess)</td>
+<td>Special</td>
+<td>4,000</td>
+<td>4,000</td>
+<td>10</td>
+<td>40,000</td>
+<td>0</td>
+</tr>
+<tr>
+<td>FS</td>
+<td>Main</td>
+<td>10,000</td>
+<td>1,000</td>
+<td>15</td>
+<td>15,000</td>
+<td>9,000</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td></td>
+<td><strong>20,000</strong></td>
+<td><strong>5,000</strong></td>
+<td></td>
+<td><strong>55,000</strong></td>
+<td><strong>15,000</strong></td>
+</tr>
+</tbody>
+</table>
+<p>There is not enough PS excess pension to cover all the pension commuted, so some FS pension is commuted as well.</p>
+</li>
+<li>
+<p>After split</p>
+<table>
+<thead>
+<tr>
+<th>&nbsp;</th>
+<th>Pension increases</th>
+<th>Pre-commtn pension</th>
+<th>Pension commuted</th>
+<th>Commtn factor</th>
+<th>Cash</th>
+<th>Post-commtn pension</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GMP</td>
+<td></td>
+<td>4,000</td>
+<td></td>
+<td></td>
+<td></td>
+<td>4,000</td>
+</tr>
+<tr>
+<td>PS (Excess)</td>
+<td>Special</td>
+<td>6,000</td>
+<td>0</td>
+<td>10</td>
+<td>0</td>
+<td>6,000</td>
+</tr>
+<tr>
+<td>FS</td>
+<td>Main</td>
+<td>10,000</td>
+<td>5,000</td>
+<td>15</td>
+<td>75,000</td>
+<td>5,000</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td></td>
+<td><strong>20,000</strong></td>
+<td><strong>5,000</strong></td>
+<td></td>
+<td><strong>75,000</strong></td>
+<td><strong>15,000</strong></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<h3 id="deferreds_2">Deferreds<a class="headerlink" href="#deferreds_2" title="Permanent link">&para;</a></h3>
+<div class="admonition example">
+<p class="admonition-title">Cash commutation of 25% at retirement</p>
+<ul>
+<li>Male Member has Total Projected Deferred Pension of £1,000 p.a. at 65</li>
+<li>Benefit is split: £600 GMP, £200 Pre-97 XS, £200 Post-97 Pension</li>
+<li>Cash Commutation assumption: 25% of Pension at 65 commuted for cash</li>
+<li>CCF to apply at 65 = 16</li>
+</ul>
+</div>
+<p><strong>Questions:</strong> Calculate the cash amount and split of post-commutation pension at 65
+if:</p>
+<ol>
+<li>Pre-97 XS and Post-97 Pension are both valued with <code>Special</code> increases.</li>
+<li>Pre-97 XS valued with <code>Special</code> increases, Post-97 Pension valued with <code>Main</code> increases.</li>
+</ol>
+<p><strong>Solution:</strong></p>
+<div class="admonition tip">
+<p class="admonition-title">This solution relates to Client Code 0 users only.</p>
+<p>There is more flexibility in the set-up for Client Code 3 users.</p>
+</div>
+<p><em>Question 1:</em> SuperVal commutes pension as follows:</p>
+<pre><code>Total Cash                     = 25% × 1,000 × 16 = £4,000
+Total Pension Commuted         = 25% × 1000       =   £250
+Total Post-Commutation Pension                    =   £750
+</code></pre>
+<p>GMP will not be commuted, and since both pre-97 XS and post-97 pensions have been set up
+with the same increases, they will be reduced proportionally by the same amount.</p>
+<p>Hence, split of Post-Commutation Pension is as follows:</p>
+<pre><code>GMP             = £600
+Pre-97 XS       = £75
+Post-97 Pension = £75
+</code></pre>
+<p><em>Question 2:</em> SuperVal commutes pension as follows:</p>
+<pre><code>Total Cash              = £4,000
+Total Pension Commuted  =   £250
+Total Post-Comm Pension =   £750
+</code></pre>
+<p>GMP not commuted. Since pre-97 XS has been set-up with <code>Special</code> increases
+and post-97 Pension set up with <code>Main</code> increases, it will commute the <code>Special</code> pension first.</p>
+<p>Hence, split of Post-Commutation Pension is as follows:</p>
+<pre><code>GMP             = £600
+Pre-97 XS       =   £0
+Post-97 Pension = £150
+</code></pre>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Equiniti Claybrook Ltd 1985-2023
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "navigation.tabs"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": "9.30.02"}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+        
+          <script src="../../javascripts/mathjax.js"></script>
+        
+      
+        
+          <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        
+      
+        
+          <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        
+      
+    
+  </body>
+</html>

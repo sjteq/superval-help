@@ -1,0 +1,61 @@
+site_name: SuperVal InFocus 
+site_url: https://lambenttechnology.com/wireframes/infocus
+
+# FIXME not working
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.mark
+  - pymdownx.superfences
+  - pymdownx.tilde
+theme:
+  favicon: img/superval.ico
+  logo: img/superval.ico
+  name: material
+
+nav:
+    - Home: index.md
+    - A-Day Cash: a-day-cash/index.md
+    - Accurate Scenario Modelling : accurate-scenario-modelling/index.md
+    - ALM/LDI interface: alm-ldi-interface/index.md
+    - Analysis of surplus: analysis-of-surplus/index.md
+    - Calculation of PV 1% salaries: calculation-of-pv-1pct-salaries/index.md
+    - Cashflow and consolidation: cashflow-and-consolidation/index.md
+    - Contributions: contributions/index.md
+    - Database output: database-output/index.md
+    - Death-in-Service benefits: dis-benefits/index.md
+    - Equalisation of retirement ages: equalisation-of-retirement-ages/index.md
+    - Importing data: importing-data/index.md
+    - Load sharing: load-sharing/index.md
+    - Mortality setup: mortality-setup/index.md
+    - Non-PPF-capped valuations: non-ppf-capped-runs/index.md
+    - Offsetting GMPs in pension slices: offsetting-gmps/index.md
+    - PPF S143 (Entry) valuations: ppf-s143/index.md
+    - PPF S179 (Levy) valuations: ppf-s179/index.md
+    - Pre-SPA pensioners: pre-spa-pensioners/index.md
+    - Projecting discontinuance benefits: projecting-discontinuance-benefits/index.md
+    - Proportion married: proportion-married/index.md
+    - Quick scenario modelling: quick-scenario-modelling/index.md
+    - Rate tables: rate-tables/index.md
+    - Salary projections: salary-projections/index.md
+    - Specifying pensions at date of leaving: pensions-at-dol/index.md
+    - Transfer values: transfer-values/index.md
+    - Valuation statistics: valuation-statistics/index.md
+    - Valuing cash benefits: valuing-cash-benefits/index.md
+    - Valuing withdrawal benefits: valuing-withdrawal-benefits/index.md
+    - Yield curves: yield-curves/index.md
