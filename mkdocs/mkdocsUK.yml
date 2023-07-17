@@ -23,7 +23,7 @@ theme:
     accent: 'indigo'
   toc:
     title: On this page
-use_directory_urls: true
+use_directory_urls: false
 nav:
 - Home: index.md
 - Access Levels: access_levels.md

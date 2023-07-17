@@ -7,6 +7,8 @@ on:
         description: SuperVal version
         required: true
         default: 930
+permissions:
+  contents: write
 
 jobs:
   build:
