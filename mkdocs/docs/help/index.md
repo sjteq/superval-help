@@ -53,6 +53,6 @@ This documentation is confidential and proprietary information of
 Equiniti Claybrook Ltd and must not be copied, used or disclosed to
 third parties without its consent.
 
-©Equiniti Claybrook Limited 1985-2019.
+©Equiniti Claybrook Limited 1985-2023.
 
 </div>
